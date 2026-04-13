@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "株式会社サムライウタリ | SAMURAI UTARI Inc.",
     description: "夢なき者に理想を。地方にビジョナリーカンパニーをつくる。",
-    images: ["/og-image.png"],
     type: "website",
   },
 };
