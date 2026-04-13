@@ -4,12 +4,12 @@ import { ScrollFadeIn } from "./scroll-fade-in";
 import Image from "next/image";
 
 const photos = [
-  { src: "/photos/gallery/event-01.jpg", caption: "Future Factory 北海道" },
-  { src: "/photos/gallery/event-02.jpg", caption: "モノポリー合宿" },
-  { src: "/photos/gallery/event-03.jpg", caption: "AI Training 研修" },
-  { src: "/photos/gallery/event-04.jpg", caption: "カクレガ コワーキング" },
-  { src: "/photos/gallery/event-05.jpg", caption: "懇親会" },
-  { src: "/photos/gallery/event-06.jpg", caption: "ワークショップ" },
+  { src: "/photos/gallery/event-01.jpg", caption: "Z世代ザムライの腹が割れる会" },
+  { src: "/photos/gallery/event-02.jpg", caption: "トークセッション @ カクレガ" },
+  { src: "/photos/gallery/event-03.jpg", caption: "イベント風景" },
+  { src: "/photos/gallery/event-04.jpg", caption: "ディスカッション" },
+  { src: "/photos/gallery/event-05.jpg", caption: "BBQ & 交流会" },
+  { src: "/photos/gallery/event-06.jpg", caption: "懇親会" },
 ];
 
 export function Gallery() {
