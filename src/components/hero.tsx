@@ -38,7 +38,7 @@ export function Hero() {
         <p className="text-[13px] tracking-[0.4em] uppercase text-white/40 mb-10">
           SAMURAI UTARI Inc.
         </p>
-        <h1 className="text-4xl md:text-[56px] font-extralight tracking-[0.25em] text-white mb-6 [text-shadow:0_0_80px_rgba(18,53,99,0.5)]">
+        <h1 className="text-4xl md:text-[56px] font-extralight tracking-[0.1em] md:tracking-[0.25em] text-white mb-6 [text-shadow:0_0_80px_rgba(18,53,99,0.5)]">
           夢なき者に理想を
         </h1>
         <p className="text-sm tracking-[0.15em] text-white/45">

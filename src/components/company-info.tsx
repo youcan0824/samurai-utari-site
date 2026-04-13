@@ -13,8 +13,9 @@ export function CompanyInfo() {
         <tbody>
           {rows.map((row, i) => (
             <tr key={i} className="border-b border-white/[0.06]">
-              <th className="text-left py-4 px-6 text-xs font-normal text-white/40 tracking-[0.05em] w-[160px]">{row.label}</th>
-              <td className="py-4 px-6 text-sm text-white/70">{row.value}</td>
+              <th className="text-left py-4 px-3 md:px-6 text-xs font-normal text-white/40 tracking-[0.05em] w-[100px] md:w-[160px]">{row.label}</th>
+
+              <td className="py-4 px-3 md:px-6 text-sm text-white/70">{row.value}</td>
             </tr>
           ))}
         </tbody>
