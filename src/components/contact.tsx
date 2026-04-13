@@ -8,11 +8,6 @@ export function Contact() {
         <h2 className="text-3xl md:text-4xl font-light tracking-[0.1em] mb-4">Get in Touch</h2>
         <p className="text-sm text-white/50 mb-12">研修のご依頼・採用・取材・その他のお問い合わせ</p>
         <a href="mailto:info@samurai-utari.jp" className="inline-block px-12 py-4 text-[13px] tracking-[0.15em] uppercase bg-white/10 border border-white/25 rounded-lg text-white backdrop-blur-sm hover:bg-white/20 hover:border-white/40 transition-all">Contact Us</a>
-        <div className="flex justify-center gap-4 mt-8">
-          {[{ label: "X", href: "#" }, { label: "note", href: "#" }, { label: "LINE", href: "#" }].map((link) => (
-            <a key={link.label} href={link.href} className="px-5 py-2 text-xs border border-white/20 rounded-md text-white/60 hover:text-white hover:border-white/40 transition-all" target="_blank" rel="noopener noreferrer">{link.label}</a>
-          ))}
-        </div>
       </ScrollFadeIn>
     </section>
   );
