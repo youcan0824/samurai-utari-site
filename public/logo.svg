@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 32" fill="#123563">
+  <!-- シンボル: 花紋の簡略版（円＋五弁花） -->
+  <g transform="translate(16,16)">
+    <!-- 外円 -->
+    <circle cx="0" cy="0" r="13" fill="none" stroke="#123563" stroke-width="1.8"/>
+    <!-- 五弁花 -->
+    <g>
+      <ellipse cx="0" cy="-6" rx="3.2" ry="5.5" fill="#123563" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-6" rx="3.2" ry="5.5" fill="#123563" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-6" rx="3.2" ry="5.5" fill="#123563" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-6" rx="3.2" ry="5.5" fill="#123563" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-6" rx="3.2" ry="5.5" fill="#123563" transform="rotate(288)"/>
+    </g>
+    <!-- 中心の丸 -->
+    <circle cx="0" cy="0" r="2.5" fill="#FFFFFF"/>
+    <circle cx="0" cy="0" r="1.2" fill="#123563"/>
+  </g>
+  <!-- テキスト -->
+  <text x="36" y="14" font-family="Arial, 'MS PGothic', sans-serif" font-size="9.5" font-weight="700" letter-spacing=".12em" fill="#123563">SAMURAI</text>
+  <text x="36" y="26" font-family="Arial, 'MS PGothic', sans-serif" font-size="9.5" font-weight="700" letter-spacing=".12em" fill="#123563">UTARI</text>
+</svg>
