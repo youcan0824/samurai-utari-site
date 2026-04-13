@@ -1,11 +1,32 @@
 import { Nav } from "@/components/nav";
 import { Hero } from "@/components/hero";
+import { SectionDivider } from "@/components/section-divider";
+import { About } from "@/components/about";
+import { Gallery } from "@/components/gallery";
+import { Numbers } from "@/components/numbers";
+import { Service } from "@/components/service";
+import { Team } from "@/components/team";
+import { Contact } from "@/components/contact";
+import { CompanyInfo } from "@/components/company-info";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
     <main>
       <Nav />
       <Hero />
+      <SectionDivider />
+      <About />
+      <Gallery />
+      <Numbers />
+      <SectionDivider />
+      <Service />
+      <SectionDivider />
+      <Team />
+      <SectionDivider />
+      <Contact />
+      <CompanyInfo />
+      <Footer />
     </main>
   );
 }
