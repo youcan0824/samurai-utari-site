@@ -11,7 +11,7 @@ const members = [
     role: "CEO",
     motto: "「現代の松下村塾をつくる」",
     bio: "兵庫県神戸市出身。東証一部上場企業を1ヶ月で退職し起業。広島で若者起業家シェアハウス「もみじ」創業、スタートアップ体験企画を北海道・大阪・福岡で展開。",
-    photo: "/photos/fujino.jpg",
+    photo: "/photos/fujino.webp",
     initial: "YF",
   },
   {
@@ -20,7 +20,7 @@ const members = [
     role: "COO",
     motto: "「ポテンシャルを解放する」",
     bio: "兵庫県神戸市出身。高校生キャリア雑誌Zoo創業、起業家シェアハウスZooハウス創業。コーチング事業・アントレプレナーシッププログラム提供を展開。",
-    photo: "/photos/antonians.jpg",
+    photo: "/photos/antonians.webp",
     initial: "TA",
   },
   {
@@ -29,7 +29,7 @@ const members = [
     role: "CSO",
     motto: "「リアルとゲームの境界線をあいまいにする」",
     bio: "神奈川県茅ヶ崎市出身。廃校を活用したライブ・アクション・ロールプレイング「ガチ文化祭」主催。エンターテイメント・コミュニティ事業「Amuse!」を運営、7年で累計261名在籍。",
-    photo: "/photos/miyashiro.jpg",
+    photo: "/photos/miyashiro.webp",
     initial: "KM",
   },
 ];
