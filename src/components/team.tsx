@@ -5,9 +5,33 @@ import Image from "next/image";
 import { ScrollFadeIn } from "./scroll-fade-in";
 
 const members = [
-  { name: "藤野 悠生", nameEn: "Yuki Fujino", role: "Founder & CEO", motto: "「現代の松下村塾をつくる」", bio: "広島大学卒。東証プライム上場企業を1ヶ月で退職し独立。累計200名超の大学生を支援。北海道を拠点に活動中。", photo: "/photos/fujino.jpg", initial: "YF" },
-  { name: "アントニアンズ 大我", nameEn: "Taiga Antonians", role: "COO", motto: "「ポテンシャルを解放する」", bio: "学生向けインキュベーションコミュニティ創業。累計会員数112名。リクルート・P&G等へ人材輩出。", photo: "/photos/antonians.jpg", initial: "TA" },
-  { name: "炎山 友秋", nameEn: "Tomoaki Hiyama", role: "CSO", motto: "「リアルとゲームの境界線をあいまいにする」", bio: "エンターテイメント・コミュニティ事業「Amuse!」運営。7年で累計261名在籍。", photo: "/photos/hiyama.jpg", initial: "TH" },
+  {
+    name: "藤野 悠生",
+    nameEn: "Yuki Fujino",
+    role: "CEO",
+    motto: "「現代の松下村塾をつくる」",
+    bio: "兵庫県神戸市出身。東証一部上場企業を1ヶ月で退職し起業。広島で若者起業家シェアハウス「もみじ」創業、スタートアップ体験企画を北海道・大阪・福岡で展開。",
+    photo: "/photos/fujino.jpg",
+    initial: "YF",
+  },
+  {
+    name: "アントニアンズ 大我",
+    nameEn: "Taiga Antonians",
+    role: "COO",
+    motto: "「ポテンシャルを解放する」",
+    bio: "兵庫県神戸市出身。高校生キャリア雑誌Zoo創業、起業家シェアハウスZooハウス創業。コーチング事業・アントレプレナーシッププログラム提供を展開。",
+    photo: "/photos/antonians.jpg",
+    initial: "TA",
+  },
+  {
+    name: "宮代 健太",
+    nameEn: "Kenta Miyashiro",
+    role: "CSO",
+    motto: "「リアルとゲームの境界線をあいまいにする」",
+    bio: "神奈川県茅ヶ崎市出身。廃校を活用したライブ・アクション・ロールプレイング「ガチ文化祭」主催。エンターテイメント・コミュニティ事業「Amuse!」を運営、7年で累計261名在籍。",
+    photo: "/photos/miyashiro.jpg",
+    initial: "KM",
+  },
 ];
 
 function PhotoOrInitial({ photo, initial, name }: { photo: string; initial: string; name: string }) {
