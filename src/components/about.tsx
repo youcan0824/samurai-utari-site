@@ -27,56 +27,66 @@ export function About() {
         </ScrollFadeIn>
         <ScrollFadeIn>
           <div className="flex flex-col gap-6 pt-2">
-            {/* サムライカード */}
-            <div className="relative bg-white/[0.03] border border-white/[0.06] rounded-lg overflow-hidden">
-              <div className="flex items-stretch">
+            {/* サムライカード - 和紙風 */}
+            <div className="relative bg-[#f5efe0] rounded-sm overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.3)]">
+              {/* 和紙テクスチャ風のグラデーション */}
+              <div
+                className="absolute inset-0 pointer-events-none opacity-50"
+                style={{
+                  background:
+                    "radial-gradient(ellipse at top left, rgba(255,245,220,0.8), transparent 60%), radial-gradient(ellipse at bottom right, rgba(180,150,100,0.15), transparent 60%)",
+                }}
+              />
+              <div className="relative flex items-stretch">
                 <div className="flex-1 p-6 pr-4 min-w-0">
-                  <h3 className="text-[11px] font-semibold tracking-[0.15em] uppercase text-[#6ea8dc] mb-3">
-                    サムライ
+                  <h3 className="text-[11px] font-semibold tracking-[0.3em] uppercase text-[#8b2500] mb-3">
+                    侍 / SAMURAI
                   </h3>
-                  <p className="text-sm text-white/70 leading-[1.9]">
-                    周りの評価やカタチに囚われず、
-                    <br className="hidden sm:inline" />
-                    理想を生きる人。
-                    夢を諦める平均年齢は24歳。
-                    それでも理想を追い続ける人を、
+                  <p className="text-sm text-[#1a1a1a]/85 leading-[1.9]">
+                    周りの評価やカタチに囚われず、理想を生きる人。
+                    夢を諦める平均年齢は24歳。それでも理想を追い続ける人を、
                     私たちはサムライと呼んでいます。
                   </p>
                 </div>
-                <div className="relative w-28 md:w-36 shrink-0 bg-gradient-to-br from-white/[0.02] to-transparent">
+                <div className="relative w-28 md:w-36 shrink-0">
                   <Image
                     src="/silhouettes/samurai.png"
                     alt="Samurai"
                     fill
                     sizes="(max-width: 768px) 112px, 144px"
-                    className="object-contain object-center p-3 mix-blend-screen opacity-95"
+                    className="object-contain object-center p-2"
                   />
                 </div>
               </div>
             </div>
 
-            {/* ウタリカード */}
-            <div className="relative bg-white/[0.03] border border-white/[0.06] rounded-lg overflow-hidden">
-              <div className="flex items-stretch">
+            {/* ウタリカード - 和紙風 */}
+            <div className="relative bg-[#f5efe0] rounded-sm overflow-hidden shadow-[0_8px_30px_rgba(0,0,0,0.3)]">
+              <div
+                className="absolute inset-0 pointer-events-none opacity-50"
+                style={{
+                  background:
+                    "radial-gradient(ellipse at top left, rgba(255,245,220,0.8), transparent 60%), radial-gradient(ellipse at bottom right, rgba(180,150,100,0.15), transparent 60%)",
+                }}
+              />
+              <div className="relative flex items-stretch">
                 <div className="flex-1 p-6 pr-4 min-w-0">
-                  <h3 className="text-[11px] font-semibold tracking-[0.15em] uppercase text-[#6ea8dc] mb-3">
-                    ウタリ
+                  <h3 className="text-[11px] font-semibold tracking-[0.3em] uppercase text-[#8b2500] mb-3">
+                    同胞 / UTARI
                   </h3>
-                  <p className="text-sm text-white/70 leading-[1.9]">
-                    アイヌ語で「同胞」。
-                    ひとりで戦うのではなく、
+                  <p className="text-sm text-[#1a1a1a]/85 leading-[1.9]">
+                    アイヌ語で「同胞」。ひとりで戦うのではなく、
                     志を同じくする仲間とともに歩む。
-                    44人のサムライウタリをつくることが、
-                    私たちのミッションです。
+                    44人のサムライウタリをつくることが、私たちのミッションです。
                   </p>
                 </div>
-                <div className="relative w-28 md:w-36 shrink-0 bg-gradient-to-br from-white/[0.02] to-transparent">
+                <div className="relative w-28 md:w-36 shrink-0">
                   <Image
                     src="/silhouettes/utari.png"
                     alt="Utari"
                     fill
                     sizes="(max-width: 768px) 112px, 144px"
-                    className="object-contain object-center p-3 mix-blend-screen opacity-95"
+                    className="object-contain object-center p-2"
                   />
                 </div>
               </div>
