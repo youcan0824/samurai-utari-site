@@ -2,6 +2,7 @@ import { Nav } from "@/components/nav";
 import { Hero } from "@/components/hero";
 import { SectionDivider } from "@/components/section-divider";
 import { About } from "@/components/about";
+import { Message } from "@/components/message";
 import { Gallery } from "@/components/gallery";
 import { Numbers } from "@/components/numbers";
 import { Service } from "@/components/service";
@@ -17,6 +18,7 @@ export default function Home() {
       <Hero />
       <SectionDivider />
       <About />
+      <Message />
       <Gallery />
       <Numbers />
       <SectionDivider />
