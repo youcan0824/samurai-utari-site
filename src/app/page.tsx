@@ -1,7 +1,7 @@
 import { Nav } from "@/components/nav";
 import { Hero } from "@/components/hero";
 import { Opening } from "@/components/opening";
-import { Vision } from "@/components/vision";
+import { Philosophy } from "@/components/philosophy";
 import { Why } from "@/components/why";
 import { How } from "@/components/how";
 import { Service } from "@/components/service";
@@ -18,7 +18,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Opening />
-      <Vision />
+      <Philosophy />
       <Why />
       <How />
       <Service />
