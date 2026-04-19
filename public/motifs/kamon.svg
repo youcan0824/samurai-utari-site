@@ -1,61 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
-  <!-- 外円 -->
-  <circle cx="200" cy="200" r="180" stroke="currentColor" stroke-width="2" fill="none" opacity="0.8"/>
-  <circle cx="200" cy="200" r="170" stroke="currentColor" stroke-width="1" fill="none" opacity="0.4"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- 外円（細い二重円で家紋感） -->
+  <circle cx="100" cy="100" r="88" stroke="currentColor" stroke-width="3" fill="none" />
+  <circle cx="100" cy="100" r="78" stroke="currentColor" stroke-width="1" fill="none" opacity="0.6" />
 
-  <!-- 縦縞（和紙の経線） -->
-  <g stroke="currentColor" stroke-width="0.6" opacity="0.2">
-    <line x1="200" y1="30" x2="200" y2="370"/>
-    <line x1="180" y1="35" x2="180" y2="365"/>
-    <line x1="220" y1="35" x2="220" y2="365"/>
-    <line x1="160" y1="45" x2="160" y2="355"/>
-    <line x1="240" y1="45" x2="240" y2="355"/>
-    <line x1="140" y1="60" x2="140" y2="340"/>
-    <line x1="260" y1="60" x2="260" y2="340"/>
-    <line x1="120" y1="80" x2="120" y2="320"/>
-    <line x1="280" y1="80" x2="280" y2="320"/>
-    <line x1="100" y1="110" x2="100" y2="290"/>
-    <line x1="300" y1="110" x2="300" y2="290"/>
-    <line x1="80" y1="140" x2="80" y2="260"/>
-    <line x1="320" y1="140" x2="320" y2="260"/>
-    <line x1="60" y1="175" x2="60" y2="225"/>
-    <line x1="340" y1="175" x2="340" y2="225"/>
+  <!-- 刀身（縦に貫く・鋭い） -->
+  <g fill="currentColor">
+    <!-- 刀身本体 -->
+    <path d="M95,28 L100,18 L105,28 L105,135 L95,135 Z" />
+    <!-- 切っ先（朱色） -->
+    <path d="M95,28 L100,18 L105,28 Z" fill="#8b2500" />
+    <!-- 鍔（つば） -->
+    <rect x="82" y="132" width="36" height="4" />
+    <rect x="85" y="136" width="30" height="2" opacity="0.7" />
+    <!-- 柄（つか・下部） -->
+    <rect x="93" y="138" width="14" height="42" rx="1" />
   </g>
 
-  <!-- 五弁花（中央） -->
-  <g transform="translate(200,200)">
-    <!-- 花びら 5枚 -->
-    <g fill="currentColor" opacity="0.9">
-      <ellipse cx="0" cy="-55" rx="28" ry="50" transform="rotate(0)"/>
-      <ellipse cx="0" cy="-55" rx="28" ry="50" transform="rotate(72)"/>
-      <ellipse cx="0" cy="-55" rx="28" ry="50" transform="rotate(144)"/>
-      <ellipse cx="0" cy="-55" rx="28" ry="50" transform="rotate(216)"/>
-      <ellipse cx="0" cy="-55" rx="28" ry="50" transform="rotate(288)"/>
-    </g>
-    <!-- 花びらの重ね（小） -->
-    <g fill="#0d1117" opacity="0.3">
-      <ellipse cx="0" cy="-45" rx="8" ry="20" transform="rotate(0)"/>
-      <ellipse cx="0" cy="-45" rx="8" ry="20" transform="rotate(72)"/>
-      <ellipse cx="0" cy="-45" rx="8" ry="20" transform="rotate(144)"/>
-      <ellipse cx="0" cy="-45" rx="8" ry="20" transform="rotate(216)"/>
-      <ellipse cx="0" cy="-45" rx="8" ry="20" transform="rotate(288)"/>
-    </g>
-    <!-- 中央の円 -->
-    <circle cx="0" cy="0" r="18" fill="currentColor" opacity="0.95"/>
-    <circle cx="0" cy="0" r="12" fill="#0d1117"/>
-    <!-- 花芯のライン（放射線） -->
-    <g stroke="currentColor" stroke-width="1" opacity="0.6">
-      <line x1="0" y1="-12" x2="0" y2="-6"/>
-      <line x1="0" y1="12" x2="0" y2="6"/>
-      <line x1="-12" y1="0" x2="-6" y2="0"/>
-      <line x1="12" y1="0" x2="6" y2="0"/>
-    </g>
-    <!-- 葯（やく）ドット -->
-    <g fill="currentColor" opacity="0.9">
-      <circle cx="0" cy="-8" r="1.5"/>
-      <circle cx="0" cy="8" r="1.5"/>
-      <circle cx="-8" cy="0" r="1.5"/>
-      <circle cx="8" cy="0" r="1.5"/>
-    </g>
+  <!-- 刀身の光沢（白い細線） -->
+  <line x1="100" y1="30" x2="100" y2="131" stroke="currentColor" stroke-width="0.6" opacity="0" />
+  <line
+    x1="98"
+    y1="35"
+    x2="98"
+    y2="128"
+    stroke="#ffffff"
+    stroke-width="0.8"
+    opacity="0.35"
+  />
+
+  <!-- 柄の組紐（斜め交差） -->
+  <g stroke="#e8dfc9" stroke-width="0.8" opacity="0.85">
+    <line x1="93" y1="145" x2="107" y2="152" />
+    <line x1="93" y1="152" x2="107" y2="145" />
+    <line x1="93" y1="157" x2="107" y2="164" />
+    <line x1="93" y1="164" x2="107" y2="157" />
+    <line x1="93" y1="169" x2="107" y2="176" />
+    <line x1="93" y1="176" x2="107" y2="169" />
   </g>
+
+  <!-- 中央の小さな点（鍔の鋲） -->
+  <circle cx="100" cy="134" r="1.2" fill="#8b2500" />
 </svg>
