@@ -8,7 +8,6 @@ import { Service } from "@/components/service";
 import { Future } from "@/components/future";
 import { Gallery } from "@/components/gallery";
 import { Team } from "@/components/team";
-import { Message } from "@/components/message";
 import { Contact } from "@/components/contact";
 import { CompanyInfo } from "@/components/company-info";
 import { Footer } from "@/components/footer";
@@ -26,7 +25,6 @@ export default function Home() {
       <Future />
       <Gallery />
       <Team />
-      <Message />
       <Contact />
       <CompanyInfo />
       <Footer />
