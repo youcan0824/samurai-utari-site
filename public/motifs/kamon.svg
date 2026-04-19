@@ -1,78 +1,168 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
-  <!-- 外円（二重円で家紋感） -->
-  <circle cx="200" cy="200" r="180" stroke="currentColor" stroke-width="2.5" fill="none" />
-  <circle cx="200" cy="200" r="170" stroke="currentColor" stroke-width="1" fill="none" opacity="0.5" />
+  <!-- 外円（太い二重円） -->
+  <circle cx="200" cy="200" r="185" stroke="currentColor" stroke-width="4" fill="none" />
+  <circle cx="200" cy="200" r="172" stroke="currentColor" stroke-width="1.2" fill="none" opacity="0.4" />
 
-  <!-- 縦縞（和紙の経線） -->
-  <g stroke="currentColor" stroke-width="0.8" opacity="0.22">
-    <line x1="200" y1="30" x2="200" y2="370" />
-    <line x1="180" y1="35" x2="180" y2="365" />
-    <line x1="220" y1="35" x2="220" y2="365" />
-    <line x1="160" y1="45" x2="160" y2="355" />
-    <line x1="240" y1="45" x2="240" y2="355" />
-    <line x1="140" y1="60" x2="140" y2="340" />
-    <line x1="260" y1="60" x2="260" y2="340" />
-    <line x1="120" y1="80" x2="120" y2="320" />
-    <line x1="280" y1="80" x2="280" y2="320" />
-    <line x1="100" y1="110" x2="100" y2="290" />
-    <line x1="300" y1="110" x2="300" y2="290" />
-    <line x1="80" y1="140" x2="80" y2="260" />
-    <line x1="320" y1="140" x2="320" y2="260" />
-    <line x1="60" y1="175" x2="60" y2="225" />
-    <line x1="340" y1="175" x2="340" y2="225" />
+  <!-- 縦縞（和紙の経線・薄く） -->
+  <g stroke="currentColor" stroke-width="0.8" opacity="0.14">
+    <line x1="200" y1="25" x2="200" y2="375" />
+    <line x1="180" y1="30" x2="180" y2="370" />
+    <line x1="220" y1="30" x2="220" y2="370" />
+    <line x1="160" y1="40" x2="160" y2="360" />
+    <line x1="240" y1="40" x2="240" y2="360" />
+    <line x1="140" y1="55" x2="140" y2="345" />
+    <line x1="260" y1="55" x2="260" y2="345" />
+    <line x1="120" y1="75" x2="120" y2="325" />
+    <line x1="280" y1="75" x2="280" y2="325" />
+    <line x1="100" y1="105" x2="100" y2="295" />
+    <line x1="300" y1="105" x2="300" y2="295" />
+    <line x1="80" y1="135" x2="80" y2="265" />
+    <line x1="320" y1="135" x2="320" y2="265" />
   </g>
 
-  <!-- 五弁花（鋭角化した花びら・刀の切っ先風） -->
+  <!-- 葉っぱ（花の後ろ・前面に配置） -->
   <g transform="translate(200,200)">
-    <g fill="currentColor">
-      <!-- 花びら5枚（シャープな先端） -->
-      <path d="M0,-8 L-12,-48 L0,-72 L12,-48 Z" />
-      <g transform="rotate(72)"><path d="M0,-8 L-12,-48 L0,-72 L12,-48 Z" /></g>
-      <g transform="rotate(144)"><path d="M0,-8 L-12,-48 L0,-72 L12,-48 Z" /></g>
-      <g transform="rotate(216)"><path d="M0,-8 L-12,-48 L0,-72 L12,-48 Z" /></g>
-      <g transform="rotate(288)"><path d="M0,-8 L-12,-48 L0,-72 L12,-48 Z" /></g>
+    <!-- 左上の葉 -->
+    <g transform="rotate(-35)">
+      <path
+        d="M-10,-70 Q-28,-90 -35,-125 Q-18,-135 5,-110 Q10,-85 -10,-70 Z"
+        fill="currentColor"
+        opacity="0.88"
+      />
+      <path d="M-10,-70 Q-20,-100 -20,-125" stroke="#e8dfc9" strokeWidth="1" opacity="0.5" fill="none" />
     </g>
-
-    <!-- 花びらの内側の陰影（深み） -->
-    <g fill="#0d1117" opacity="0.25">
-      <path d="M0,-12 L-5,-40 L0,-60 L5,-40 Z" />
-      <g transform="rotate(72)"><path d="M0,-12 L-5,-40 L0,-60 L5,-40 Z" /></g>
-      <g transform="rotate(144)"><path d="M0,-12 L-5,-40 L0,-60 L5,-40 Z" /></g>
-      <g transform="rotate(216)"><path d="M0,-12 L-5,-40 L0,-60 L5,-40 Z" /></g>
-      <g transform="rotate(288)"><path d="M0,-12 L-5,-40 L0,-60 L5,-40 Z" /></g>
+    <!-- 右上の葉 -->
+    <g transform="rotate(35)">
+      <path
+        d="M10,-70 Q28,-90 35,-125 Q18,-135 -5,-110 Q-10,-85 10,-70 Z"
+        fill="currentColor"
+        opacity="0.88"
+      />
     </g>
-
-    <!-- 花芯の放射線（雄しべ風） -->
-    <g stroke="currentColor" stroke-width="1.2" opacity="0.7">
-      <line x1="0" y1="-8" x2="0" y2="-20" />
-      <line x1="0" y1="-8" x2="0" y2="-20" transform="rotate(72)" />
-      <line x1="0" y1="-8" x2="0" y2="-20" transform="rotate(144)" />
-      <line x1="0" y1="-8" x2="0" y2="-20" transform="rotate(216)" />
-      <line x1="0" y1="-8" x2="0" y2="-20" transform="rotate(288)" />
-      <line x1="0" y1="-8" x2="0" y2="-20" transform="rotate(36)" />
-      <line x1="0" y1="-8" x2="0" y2="-20" transform="rotate(108)" />
-      <line x1="0" y1="-8" x2="0" y2="-20" transform="rotate(180)" />
-      <line x1="0" y1="-8" x2="0" y2="-20" transform="rotate(252)" />
-      <line x1="0" y1="-8" x2="0" y2="-20" transform="rotate(324)" />
-    </g>
-
-    <!-- 中央の花芯（朱色＝革命の切っ先） -->
-    <circle cx="0" cy="0" r="10" fill="#8b2500" />
-    <circle cx="0" cy="0" r="6" fill="currentColor" />
-    <circle cx="0" cy="0" r="2.5" fill="#8b2500" />
-
-    <!-- 葯（やく）のドット -->
-    <g fill="currentColor">
-      <circle cx="0" cy="-6" r="1.2" />
-      <circle cx="0" cy="6" r="1.2" />
-      <circle cx="-6" cy="0" r="1.2" />
-      <circle cx="6" cy="0" r="1.2" />
-    </g>
+    <!-- 左下の大きな葉 -->
+    <path
+      d="M-60,40 Q-110,50 -135,95 Q-125,130 -85,115 Q-55,85 -60,40 Z"
+      fill="currentColor"
+      opacity="0.9"
+    />
+    <path
+      d="M-60,50 Q-95,75 -120,100"
+      stroke="#e8dfc9"
+      stroke-width="1.2"
+      opacity="0.5"
+      fill="none"
+    />
+    <!-- 右下の大きな葉 -->
+    <path
+      d="M60,40 Q110,50 135,95 Q125,130 85,115 Q55,85 60,40 Z"
+      fill="currentColor"
+      opacity="0.9"
+    />
+    <path
+      d="M60,50 Q95,75 120,100"
+      stroke="#e8dfc9"
+      stroke-width="1.2"
+      opacity="0.5"
+      fill="none"
+    />
+    <!-- 下中央の葉 -->
+    <path
+      d="M-20,90 Q-15,130 0,140 Q15,130 20,90 Q10,105 0,110 Q-10,105 -20,90 Z"
+      fill="currentColor"
+      opacity="0.85"
+    />
   </g>
 
-  <!-- 葉（下部の左右に軽く） -->
-  <g fill="currentColor" opacity="0.85">
-    <path d="M120,240 Q110,260 125,280 Q145,270 140,250 Z" />
-    <path d="M280,240 Q290,260 275,280 Q255,270 260,250 Z" />
+  <!-- 五弁花（花びらを大きく丸みと鋭さを両立） -->
+  <g transform="translate(200,200)">
+    <!-- 外層（濃い藍・花びら本体） -->
+    <g fill="currentColor">
+      <!-- 上 -->
+      <path d="M0,-12 Q-32,-28 -28,-72 Q-14,-92 0,-98 Q14,-92 28,-72 Q32,-28 0,-12 Z" />
+      <!-- 右上 -->
+      <path
+        d="M0,-12 Q-32,-28 -28,-72 Q-14,-92 0,-98 Q14,-92 28,-72 Q32,-28 0,-12 Z"
+        transform="rotate(72)"
+      />
+      <!-- 右下 -->
+      <path
+        d="M0,-12 Q-32,-28 -28,-72 Q-14,-92 0,-98 Q14,-92 28,-72 Q32,-28 0,-12 Z"
+        transform="rotate(144)"
+      />
+      <!-- 左下 -->
+      <path
+        d="M0,-12 Q-32,-28 -28,-72 Q-14,-92 0,-98 Q14,-92 28,-72 Q32,-28 0,-12 Z"
+        transform="rotate(216)"
+      />
+      <!-- 左上 -->
+      <path
+        d="M0,-12 Q-32,-28 -28,-72 Q-14,-92 0,-98 Q14,-92 28,-72 Q32,-28 0,-12 Z"
+        transform="rotate(288)"
+      />
+    </g>
+
+    <!-- 花びら中央の光（明るい藍のハイライト） -->
+    <g fill="#2a5ca0" opacity="0.55">
+      <path d="M0,-22 Q-14,-34 -12,-62 Q-6,-78 0,-82 Q6,-78 12,-62 Q14,-34 0,-22 Z" />
+      <path
+        d="M0,-22 Q-14,-34 -12,-62 Q-6,-78 0,-82 Q6,-78 12,-62 Q14,-34 0,-22 Z"
+        transform="rotate(72)"
+      />
+      <path
+        d="M0,-22 Q-14,-34 -12,-62 Q-6,-78 0,-82 Q6,-78 12,-62 Q14,-34 0,-22 Z"
+        transform="rotate(144)"
+      />
+      <path
+        d="M0,-22 Q-14,-34 -12,-62 Q-6,-78 0,-82 Q6,-78 12,-62 Q14,-34 0,-22 Z"
+        transform="rotate(216)"
+      />
+      <path
+        d="M0,-22 Q-14,-34 -12,-62 Q-6,-78 0,-82 Q6,-78 12,-62 Q14,-34 0,-22 Z"
+        transform="rotate(288)"
+      />
+    </g>
+
+    <!-- 花びらの中央筋（葉脈風） -->
+    <g stroke="#e8dfc9" stroke-width="1" opacity="0.5" fill="none">
+      <line x1="0" y1="-30" x2="0" y2="-85" />
+      <line x1="0" y1="-30" x2="0" y2="-85" transform="rotate(72)" />
+      <line x1="0" y1="-30" x2="0" y2="-85" transform="rotate(144)" />
+      <line x1="0" y1="-30" x2="0" y2="-85" transform="rotate(216)" />
+      <line x1="0" y1="-30" x2="0" y2="-85" transform="rotate(288)" />
+    </g>
+
+    <!-- 花芯の放射線（雄しべ） -->
+    <g stroke="currentColor" stroke-width="1.8" opacity="0.9">
+      <line x1="0" y1="-10" x2="0" y2="-22" />
+      <line x1="0" y1="-10" x2="0" y2="-22" transform="rotate(36)" />
+      <line x1="0" y1="-10" x2="0" y2="-22" transform="rotate(72)" />
+      <line x1="0" y1="-10" x2="0" y2="-22" transform="rotate(108)" />
+      <line x1="0" y1="-10" x2="0" y2="-22" transform="rotate(144)" />
+      <line x1="0" y1="-10" x2="0" y2="-22" transform="rotate(180)" />
+      <line x1="0" y1="-10" x2="0" y2="-22" transform="rotate(216)" />
+      <line x1="0" y1="-10" x2="0" y2="-22" transform="rotate(252)" />
+      <line x1="0" y1="-10" x2="0" y2="-22" transform="rotate(288)" />
+      <line x1="0" y1="-10" x2="0" y2="-22" transform="rotate(324)" />
+    </g>
+
+    <!-- 雄しべ先端の葯（ドット） -->
+    <g fill="currentColor">
+      <circle cx="0" cy="-22" r="2" />
+      <circle cx="0" cy="-22" r="2" transform="rotate(36)" />
+      <circle cx="0" cy="-22" r="2" transform="rotate(72)" />
+      <circle cx="0" cy="-22" r="2" transform="rotate(108)" />
+      <circle cx="0" cy="-22" r="2" transform="rotate(144)" />
+      <circle cx="0" cy="-22" r="2" transform="rotate(180)" />
+      <circle cx="0" cy="-22" r="2" transform="rotate(216)" />
+      <circle cx="0" cy="-22" r="2" transform="rotate(252)" />
+      <circle cx="0" cy="-22" r="2" transform="rotate(288)" />
+      <circle cx="0" cy="-22" r="2" transform="rotate(324)" />
+    </g>
+
+    <!-- 中央の花芯（朱色の核） -->
+    <circle cx="0" cy="0" r="14" fill="currentColor" />
+    <circle cx="0" cy="0" r="10" fill="#8b2500" />
+    <circle cx="0" cy="0" r="5" fill="#ffffff" />
+    <circle cx="0" cy="0" r="2.5" fill="#8b2500" />
   </g>
 </svg>
