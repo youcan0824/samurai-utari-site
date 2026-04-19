@@ -17,10 +17,12 @@ export function Contact() {
           <span className="text-[10px] ml-3 uppercase text-white/35">/ Contact</span>
         </p>
         <h2
-          className="text-3xl md:text-[40px] font-normal tracking-[0.2em] mb-6 text-white"
+          className="text-2xl md:text-[40px] font-normal tracking-[0.12em] md:tracking-[0.15em] mb-6 text-white leading-[1.6]"
           style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
         >
-          話をしよう。
+          ご縁を、
+          <br className="md:hidden" />
+          お待ちしています。
         </h2>
         <p
           className="text-sm md:text-[15px] text-white/60 mb-14 leading-[2]"
