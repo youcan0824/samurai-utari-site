@@ -65,7 +65,7 @@ export function Team() {
     <section id="team" className="py-[120px] px-6 md:px-[60px] bg-[#0d1117]">
       <ScrollFadeIn>
         <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[1100px] mx-auto">
-          <span className="text-white/70">仲間</span>
+          <span className="text-white/70">UTARI</span>
           <span className="text-[10px] ml-3 uppercase text-white/25">/ Team</span>
         </p>
       </ScrollFadeIn>
