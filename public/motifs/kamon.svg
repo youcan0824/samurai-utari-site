@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <!-- 外円 -->
+  <circle cx="200" cy="200" r="180" stroke="currentColor" stroke-width="2" fill="none" opacity="0.8"/>
+  <circle cx="200" cy="200" r="170" stroke="currentColor" stroke-width="1" fill="none" opacity="0.4"/>
+
+  <!-- 縦縞（和紙の経線） -->
+  <g stroke="currentColor" stroke-width="0.6" opacity="0.2">
+    <line x1="200" y1="30" x2="200" y2="370"/>
+    <line x1="180" y1="35" x2="180" y2="365"/>
+    <line x1="220" y1="35" x2="220" y2="365"/>
+    <line x1="160" y1="45" x2="160" y2="355"/>
+    <line x1="240" y1="45" x2="240" y2="355"/>
+    <line x1="140" y1="60" x2="140" y2="340"/>
+    <line x1="260" y1="60" x2="260" y2="340"/>
+    <line x1="120" y1="80" x2="120" y2="320"/>
+    <line x1="280" y1="80" x2="280" y2="320"/>
+    <line x1="100" y1="110" x2="100" y2="290"/>
+    <line x1="300" y1="110" x2="300" y2="290"/>
+    <line x1="80" y1="140" x2="80" y2="260"/>
+    <line x1="320" y1="140" x2="320" y2="260"/>
+    <line x1="60" y1="175" x2="60" y2="225"/>
+    <line x1="340" y1="175" x2="340" y2="225"/>
+  </g>
+
+  <!-- 五弁花（中央） -->
+  <g transform="translate(200,200)">
+    <!-- 花びら 5枚 -->
+    <g fill="currentColor" opacity="0.9">
+      <ellipse cx="0" cy="-55" rx="28" ry="50" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-55" rx="28" ry="50" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-55" rx="28" ry="50" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-55" rx="28" ry="50" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-55" rx="28" ry="50" transform="rotate(288)"/>
+    </g>
+    <!-- 花びらの重ね（小） -->
+    <g fill="#0d1117" opacity="0.3">
+      <ellipse cx="0" cy="-45" rx="8" ry="20" transform="rotate(0)"/>
+      <ellipse cx="0" cy="-45" rx="8" ry="20" transform="rotate(72)"/>
+      <ellipse cx="0" cy="-45" rx="8" ry="20" transform="rotate(144)"/>
+      <ellipse cx="0" cy="-45" rx="8" ry="20" transform="rotate(216)"/>
+      <ellipse cx="0" cy="-45" rx="8" ry="20" transform="rotate(288)"/>
+    </g>
+    <!-- 中央の円 -->
+    <circle cx="0" cy="0" r="18" fill="currentColor" opacity="0.95"/>
+    <circle cx="0" cy="0" r="12" fill="#0d1117"/>
+    <!-- 花芯のライン（放射線） -->
+    <g stroke="currentColor" stroke-width="1" opacity="0.6">
+      <line x1="0" y1="-12" x2="0" y2="-6"/>
+      <line x1="0" y1="12" x2="0" y2="6"/>
+      <line x1="-12" y1="0" x2="-6" y2="0"/>
+      <line x1="12" y1="0" x2="6" y2="0"/>
+    </g>
+    <!-- 葯（やく）ドット -->
+    <g fill="currentColor" opacity="0.9">
+      <circle cx="0" cy="-8" r="1.5"/>
+      <circle cx="0" cy="8" r="1.5"/>
+      <circle cx="-8" cy="0" r="1.5"/>
+      <circle cx="8" cy="0" r="1.5"/>
+    </g>
+  </g>
+</svg>

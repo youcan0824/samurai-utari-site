@@ -37,12 +37,25 @@ const members = [
 function PhotoOrInitial({ photo, initial, name }: { photo: string; initial: string; name: string }) {
   const [imgError, setImgError] = useState(false);
   return (
-    <div className="w-[200px] h-[200px] mx-auto mb-6 rounded-full border border-white/[0.06] overflow-hidden bg-gradient-to-br from-[#123563]/30 to-[#1e508c]/15 flex items-center justify-center">
-      {imgError ? (
-        <span className="text-2xl font-light text-white/30 tracking-[0.1em]">{initial}</span>
-      ) : (
-        <Image src={photo} alt={name} width={200} height={200} className="w-full h-full object-cover" onError={() => setImgError(true)} />
-      )}
+    <div className="relative w-[200px] h-[200px] mx-auto mb-6">
+      {/* 外円（装飾・ロゴ調の二重円） */}
+      <div className="absolute -inset-2 rounded-full border border-[#4a7fc8]/20" />
+      <div className="absolute -inset-[3px] rounded-full border border-[#4a7fc8]/40" />
+      {/* 写真本体 */}
+      <div className="relative w-full h-full rounded-full border-2 border-[#123563]/60 overflow-hidden bg-gradient-to-br from-[#123563]/30 to-[#1e508c]/15 flex items-center justify-center">
+        {imgError ? (
+          <span className="text-2xl font-light text-white/30 tracking-[0.1em]">{initial}</span>
+        ) : (
+          <Image
+            src={photo}
+            alt={name}
+            width={200}
+            height={200}
+            className="w-full h-full object-cover"
+            onError={() => setImgError(true)}
+          />
+        )}
+      </div>
     </div>
   );
 }
