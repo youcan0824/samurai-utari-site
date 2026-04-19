@@ -28,11 +28,11 @@ function CountUp({ target, suffix = "" }: { target: number; suffix?: string }) {
   return (
     <span
       ref={ref}
-      className="text-6xl md:text-[72px] font-normal text-white tracking-[0.02em]"
+      className="text-6xl md:text-[80px] font-normal text-[#123563] tracking-[0.02em]"
       style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
     >
       {count}
-      <span className="text-3xl md:text-4xl text-white/60 ml-1">{suffix}</span>
+      <span className="text-3xl md:text-4xl text-[#4a7fc8] ml-1">{suffix}</span>
     </span>
   );
 }
@@ -46,8 +46,8 @@ const stats = [
 
 export function Numbers() {
   return (
-    <section className="py-24 px-6 md:px-[60px] bg-[#0d1117] border-y border-white/[0.05]">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-12 max-w-[980px] mx-auto text-center">
+    <section className="py-24 md:py-32 px-6 md:px-[60px] bg-white border-y border-[#1c1e2b]/[0.08]">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-14 max-w-[980px] mx-auto text-center">
         {stats.map((stat, i) => (
           <motion.div
             key={i}
@@ -58,7 +58,7 @@ export function Numbers() {
           >
             <CountUp target={stat.target} suffix={stat.suffix} />
             <p
-              className="text-xs text-white/50 mt-3 tracking-[0.15em]"
+              className="text-[12px] text-[#1c1e2b]/55 mt-4 tracking-[0.2em]"
               style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
             >
               {stat.label}

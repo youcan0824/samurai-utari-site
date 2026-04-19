@@ -14,28 +14,45 @@ const photos = [
 
 export function Gallery() {
   return (
-    <section className="py-[140px] px-6 md:px-[60px] bg-[#0d1117]">
+    <section className="py-[160px] md:py-[200px] px-6 md:px-[60px] bg-[#faf8f3]">
       <ScrollFadeIn>
-        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[980px] mx-auto">
-          <span className="text-white/70">文化</span>
-          <span className="text-[10px] ml-3 uppercase text-white/25">/ Culture</span>
+        <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-12 md:mb-16 max-w-[980px] mx-auto">
+          <span
+            className="text-[#123563] font-medium"
+            style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+          >
+            文化
+          </span>
+          <span className="text-[10px] ml-3 uppercase text-[#1c1e2b]/30">/ Culture</span>
         </p>
       </ScrollFadeIn>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 max-w-[980px] mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 max-w-[980px] mx-auto">
         {photos.map((photo, i) => (
           <ScrollFadeIn key={i}>
-            <div className="group relative aspect-[4/3] rounded-lg overflow-hidden bg-gradient-to-br from-[#123563]/30 to-[#1e508c]/15">
+            <div className="group relative aspect-[4/3] overflow-hidden bg-[#f5efe0] border border-[#1c1e2b]/[0.05]">
               <Image
                 src={photo.src}
                 alt={photo.caption}
                 fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                onError={(e) => {
+                  (e.target as HTMLImageElement).style.display = "none";
+                }}
               />
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-all duration-300 flex items-end">
-                <p className="p-4 text-sm text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 tracking-[0.05em]">{photo.caption}</p>
+              <div className="absolute inset-0 bg-[#123563]/0 group-hover:bg-[#123563]/60 transition-all duration-300 flex items-end">
+                <p
+                  className="p-4 text-sm text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 tracking-[0.08em]"
+                  style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+                >
+                  {photo.caption}
+                </p>
               </div>
-              <div className="absolute inset-0 flex items-center justify-center text-xs text-white/20 pointer-events-none">{photo.caption}</div>
+              <div
+                className="absolute inset-0 flex items-center justify-center text-xs text-[#1c1e2b]/30 pointer-events-none"
+                style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+              >
+                {photo.caption}
+              </div>
             </div>
           </ScrollFadeIn>
         ))}

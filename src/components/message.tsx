@@ -2,16 +2,21 @@ import { ScrollFadeIn } from "./scroll-fade-in";
 
 export function Message() {
   return (
-    <section className="py-[160px] px-6 md:px-[60px] bg-[#0d1117]">
+    <section className="py-[160px] md:py-[200px] px-6 md:px-[60px] bg-white">
       <ScrollFadeIn>
-        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[900px] mx-auto">
-          <span className="text-white/70">代表の言葉</span>
-          <span className="text-[10px] ml-3 uppercase text-white/25">/ Message</span>
+        <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-12 md:mb-16 max-w-[900px] mx-auto">
+          <span
+            className="text-[#123563] font-medium"
+            style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+          >
+            代表の言葉
+          </span>
+          <span className="text-[10px] ml-3 uppercase text-[#1c1e2b]/30">/ Message</span>
         </p>
       </ScrollFadeIn>
 
       <ScrollFadeIn>
-        <div className="relative max-w-[900px] mx-auto bg-[#f5efe0] rounded-sm overflow-hidden shadow-[0_8px_40px_rgba(0,0,0,0.35)]">
+        <div className="relative max-w-[900px] mx-auto bg-[#f5efe0] rounded-sm overflow-hidden shadow-[0_8px_30px_rgba(28,30,43,0.12)] border border-[#1c1e2b]/[0.05]">
           {/* 和紙テクスチャ */}
           <div
             className="absolute inset-0 pointer-events-none opacity-50"
@@ -21,16 +26,16 @@ export function Message() {
             }}
           />
 
-          <div className="relative py-14 px-8 md:py-20 md:px-20">
+          <div className="relative py-14 px-8 md:py-24 md:px-24">
             <h2
-              className="text-xl md:text-2xl font-normal tracking-[0.2em] text-[#8b2500] mb-10 md:mb-12"
+              className="text-xl md:text-2xl font-normal tracking-[0.25em] text-[#8b2500] mb-12 md:mb-14"
               style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
             >
               代表メッセージ
             </h2>
 
             <div
-              className="space-y-6 text-[#1a1a1a]/85 text-sm md:text-[15px] leading-[2.1]"
+              className="space-y-7 text-[#1a1a1a]/85 text-sm md:text-[15px] leading-[2.2]"
               style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
             >
               <p className="text-base md:text-lg text-[#1a1a1a] font-medium">
@@ -59,7 +64,7 @@ export function Message() {
             </div>
 
             <div
-              className="mt-12 md:mt-16 pt-6 border-t border-[#1a1a1a]/10 text-right text-[#1a1a1a]/70 text-[13px] md:text-sm"
+              className="mt-14 md:mt-20 pt-6 border-t border-[#1a1a1a]/10 text-right text-[#1a1a1a]/75 text-[13px] md:text-sm"
               style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
             >
               <p>株式会社サムライウタリ</p>

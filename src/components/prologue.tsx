@@ -2,16 +2,16 @@ import { ScrollFadeIn } from "./scroll-fade-in";
 
 export function Prologue() {
   return (
-    <section className="py-[140px] md:py-[180px] px-6 md:px-[60px] bg-[#0d1117]">
+    <section className="py-[160px] md:py-[200px] px-6 md:px-[60px] bg-white">
       <ScrollFadeIn>
         <div
           className="max-w-[760px] mx-auto text-center"
           style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
         >
-          <p className="text-[10px] md:text-[11px] tracking-[0.4em] text-white/30 mb-8 md:mb-10 uppercase">
+          <p className="text-[10px] md:text-[11px] tracking-[0.5em] text-[#1c1e2b]/35 mb-12 md:mb-14 uppercase">
             Prologue
           </p>
-          <p className="text-lg md:text-2xl text-white/85 leading-[2.2] md:leading-[2.4] font-normal tracking-[0.08em]">
+          <p className="text-lg md:text-2xl text-[#1c1e2b]/90 leading-[2.4] md:leading-[2.6] font-normal tracking-[0.08em]">
             地方に生まれただけで、
             <br />
             選べる道が、狭くなる。

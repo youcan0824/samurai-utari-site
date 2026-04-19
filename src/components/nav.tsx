@@ -16,7 +16,7 @@ export function Nav() {
   const links = [
     { href: "#about", jp: "会社", en: "About" },
     { href: "#service", jp: "事業", en: "Service" },
-    { href: "#team", jp: "仲間", en: "Team" },
+    { href: "#team", jp: "UTARI", en: "Team" },
     { href: "#contact", jp: "連絡", en: "Contact" },
   ];
 
@@ -24,25 +24,31 @@ export function Nav() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 px-6 md:px-[60px] py-5 transition-all duration-300 ${
         scrolled
-          ? "bg-[#0d1117]/85 backdrop-blur-xl border-b border-white/[0.06]"
+          ? "bg-[#faf8f3]/90 backdrop-blur-xl border-b border-[#1c1e2b]/[0.08]"
           : "bg-transparent"
       }`}
     >
       <div className="max-w-[1200px] mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
-          <Image src="/logo.svg" alt="SAMURAI UTARI" width={120} height={20} />
+          <Image
+            src="/logo.svg"
+            alt="SAMURAI UTARI"
+            width={120}
+            height={20}
+            className="[filter:brightness(0.2)]"
+          />
         </a>
 
         {/* Desktop */}
-        <div className="hidden md:flex gap-8">
+        <div className="hidden md:flex gap-10">
           {links.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="group flex flex-col items-center text-white/60 hover:text-white transition-colors"
+              className="group flex flex-col items-center text-[#1c1e2b]/70 hover:text-[#123563] transition-colors"
             >
               <span className="text-sm tracking-[0.15em]">{link.jp}</span>
-              <span className="text-[9px] tracking-[0.2em] uppercase text-white/30 mt-0.5 group-hover:text-white/60 transition-colors">
+              <span className="text-[9px] tracking-[0.2em] uppercase text-[#1c1e2b]/35 mt-0.5 group-hover:text-[#123563]/60 transition-colors">
                 {link.en}
               </span>
             </a>
@@ -55,24 +61,38 @@ export function Nav() {
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="メニュー"
         >
-          <span className={`w-5 h-px bg-white transition-transform ${menuOpen ? "rotate-45 translate-y-[3.5px]" : ""}`} />
-          <span className={`w-5 h-px bg-white transition-opacity ${menuOpen ? "opacity-0" : ""}`} />
-          <span className={`w-5 h-px bg-white transition-transform ${menuOpen ? "-rotate-45 -translate-y-[3.5px]" : ""}`} />
+          <span
+            className={`w-5 h-px bg-[#1c1e2b] transition-transform ${
+              menuOpen ? "rotate-45 translate-y-[3.5px]" : ""
+            }`}
+          />
+          <span
+            className={`w-5 h-px bg-[#1c1e2b] transition-opacity ${
+              menuOpen ? "opacity-0" : ""
+            }`}
+          />
+          <span
+            className={`w-5 h-px bg-[#1c1e2b] transition-transform ${
+              menuOpen ? "-rotate-45 -translate-y-[3.5px]" : ""
+            }`}
+          />
         </button>
       </div>
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden mt-4 pb-4 flex flex-col gap-4 border-t border-white/[0.06] pt-4">
+        <div className="md:hidden mt-4 pb-4 flex flex-col gap-4 border-t border-[#1c1e2b]/10 pt-4">
           {links.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-white/60 text-sm hover:text-white flex items-baseline gap-3"
+              className="text-[#1c1e2b]/70 text-sm hover:text-[#123563] flex items-baseline gap-3"
               onClick={() => setMenuOpen(false)}
             >
               <span className="tracking-[0.15em]">{link.jp}</span>
-              <span className="text-[10px] tracking-[0.2em] uppercase text-white/30">{link.en}</span>
+              <span className="text-[10px] tracking-[0.2em] uppercase text-[#1c1e2b]/35">
+                {link.en}
+              </span>
             </a>
           ))}
         </div>

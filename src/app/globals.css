@@ -5,15 +5,21 @@
 }
 
 :root {
-  --bg-primary: #0d1117;
-  --bg-navy: #123563;
-  --bg-section: #0f1520;
-  --accent: #4a7fc8;
-  --text-primary: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.6);
-  --text-muted: rgba(255, 255, 255, 0.4);
-  --border: rgba(255, 255, 255, 0.06);
-  --card-bg: rgba(255, 255, 255, 0.03);
+  /* ライトテーマ（中川政七商店ベンチマーク）*/
+  --bg-primary: #faf8f3;      /* 生成り */
+  --bg-white: #ffffff;         /* 純白（セクション交互用）*/
+  --bg-washi: #f5efe0;         /* 和紙色 */
+  --bg-navy: #123563;          /* 濃紺（強調セクション用）*/
+  --accent: #4a7fc8;           /* ブリリアントブルー */
+  --accent-deep: #123563;      /* ダークネイビー */
+  --accent-vermilion: #8b2500; /* 朱 */
+
+  /* テキスト */
+  --text-primary: #1c1e2b;     /* 濃紺ベース */
+  --text-secondary: rgba(28, 30, 43, 0.72);
+  --text-muted: rgba(28, 30, 43, 0.5);
+  --text-subtle: rgba(28, 30, 43, 0.35);
+  --border: rgba(28, 30, 43, 0.08);
 }
 
 body {
@@ -23,12 +29,4 @@ body {
 
 html {
   scroll-behavior: smooth;
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0) scale(1); opacity: 0.3; }
-  50% { transform: translateY(-20px) scale(1.2); opacity: 0.6; }
-}
-.animate-float {
-  animation: float 6s ease-in-out infinite;
 }

@@ -1,7 +1,6 @@
 import { Nav } from "@/components/nav";
 import { Hero } from "@/components/hero";
 import { Prologue } from "@/components/prologue";
-import { SectionDivider } from "@/components/section-divider";
 import { About } from "@/components/about";
 import { Message } from "@/components/message";
 import { Gallery } from "@/components/gallery";
@@ -18,16 +17,12 @@ export default function Home() {
       <Nav />
       <Hero />
       <Prologue />
-      <SectionDivider />
       <About />
       <Message />
       <Gallery />
       <Numbers />
-      <SectionDivider />
       <Service />
-      <SectionDivider />
       <Team />
-      <SectionDivider />
       <Contact />
       <CompanyInfo />
       <Footer />

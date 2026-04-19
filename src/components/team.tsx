@@ -34,17 +34,27 @@ const members = [
   },
 ];
 
-function PhotoOrInitial({ photo, initial, name }: { photo: string; initial: string; name: string }) {
+function PhotoOrInitial({
+  photo,
+  initial,
+  name,
+}: {
+  photo: string;
+  initial: string;
+  name: string;
+}) {
   const [imgError, setImgError] = useState(false);
   return (
-    <div className="relative w-[200px] h-[200px] mx-auto mb-6">
+    <div className="relative w-[200px] h-[200px] mx-auto mb-8">
       {/* 外円（装飾・ロゴ調の二重円） */}
-      <div className="absolute -inset-2 rounded-full border border-[#4a7fc8]/20" />
-      <div className="absolute -inset-[3px] rounded-full border border-[#4a7fc8]/40" />
+      <div className="absolute -inset-2 rounded-full border border-[#4a7fc8]/25" />
+      <div className="absolute -inset-[3px] rounded-full border border-[#123563]/40" />
       {/* 写真本体 */}
-      <div className="relative w-full h-full rounded-full border-2 border-[#123563]/60 overflow-hidden bg-gradient-to-br from-[#123563]/30 to-[#1e508c]/15 flex items-center justify-center">
+      <div className="relative w-full h-full rounded-full border border-[#123563]/60 overflow-hidden bg-[#f5efe0] flex items-center justify-center">
         {imgError ? (
-          <span className="text-2xl font-light text-white/30 tracking-[0.1em]">{initial}</span>
+          <span className="text-2xl font-light text-[#1c1e2b]/30 tracking-[0.1em]">
+            {initial}
+          </span>
         ) : (
           <Image
             src={photo}
@@ -62,22 +72,44 @@ function PhotoOrInitial({ photo, initial, name }: { photo: string; initial: stri
 
 export function Team() {
   return (
-    <section id="team" className="py-[160px] px-6 md:px-[60px] bg-[#0d1117]">
+    <section id="team" className="py-[160px] md:py-[200px] px-6 md:px-[60px] bg-white">
       <ScrollFadeIn>
-        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[980px] mx-auto">
-          <span className="text-white/70">UTARI</span>
-          <span className="text-[10px] ml-3 uppercase text-white/25">/ Team</span>
+        <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-12 md:mb-16 max-w-[980px] mx-auto">
+          <span
+            className="text-[#123563] font-medium"
+            style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+          >
+            UTARI
+          </span>
+          <span className="text-[10px] ml-3 uppercase text-[#1c1e2b]/30">/ Team</span>
         </p>
       </ScrollFadeIn>
-      <div className="grid md:grid-cols-3 gap-10 max-w-[980px] mx-auto">
+      <div className="grid md:grid-cols-3 gap-12 md:gap-10 max-w-[980px] mx-auto">
         {members.map((m, i) => (
           <ScrollFadeIn key={i}>
             <div className="text-center">
               <PhotoOrInitial photo={m.photo} initial={m.initial} name={m.name} />
-              <h3 className="text-lg font-semibold mb-1">{m.name}</h3>
-              <p className="text-[11px] text-white/40 tracking-[0.1em] uppercase mb-4">{m.role}</p>
-              <p className="text-[13px] text-[#4a7fc8] italic mb-3">{m.motto}</p>
-              <p className="text-[13px] text-white/50 leading-[1.8] max-w-[300px] mx-auto">{m.bio}</p>
+              <h3
+                className="text-xl font-medium mb-1 text-[#123563]"
+                style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+              >
+                {m.name}
+              </h3>
+              <p className="text-[11px] text-[#1c1e2b]/45 tracking-[0.2em] uppercase mb-5">
+                {m.role}
+              </p>
+              <p
+                className="text-[13px] text-[#4a7fc8] mb-4"
+                style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+              >
+                {m.motto}
+              </p>
+              <p
+                className="text-[13px] text-[#1c1e2b]/70 leading-[2] max-w-[300px] mx-auto"
+                style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+              >
+                {m.bio}
+              </p>
             </div>
           </ScrollFadeIn>
         ))}
