@@ -36,7 +36,7 @@ export function Mission() {
             >
               <span className="text-[#8b2500]">サムライウタリ</span>
               <br />
-              をつくる。
+              を創る。
             </h2>
           </ScrollFadeIn>
 
