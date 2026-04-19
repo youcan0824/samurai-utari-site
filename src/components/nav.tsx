@@ -15,8 +15,9 @@ export function Nav() {
 
   const links = [
     { href: "#philosophy", jp: "理念", en: "Philosophy" },
-    { href: "#why", jp: "なぜ", en: "Why" },
-    { href: "#how", jp: "どのように", en: "How" },
+    { href: "#vision", jp: "景色", en: "Vision" },
+    { href: "#mission", jp: "使命", en: "Mission" },
+    { href: "#value", jp: "規範", en: "Value" },
     { href: "#service", jp: "事業", en: "Service" },
     { href: "#team", jp: "UTARI", en: "Team" },
     { href: "#contact", jp: "連絡", en: "Contact" },

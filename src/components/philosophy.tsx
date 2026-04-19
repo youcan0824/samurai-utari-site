@@ -19,23 +19,23 @@ export function Philosophy() {
 
       {/* 大きな家紋を透かし */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-        <div className="relative w-[80vmin] h-[80vmin] max-w-[720px] max-h-[720px] text-white opacity-[0.06]">
+        <div className="relative w-[80vmin] h-[80vmin] max-w-[720px] max-h-[720px] text-white opacity-[0.05]">
           <Image src="/motifs/kamon.svg" alt="" fill className="object-contain" />
         </div>
       </div>
 
       {/* 刀：画面を横切る */}
-      <div className="absolute top-[40%] -left-8 md:-left-12 w-[60%] md:w-[50%] max-w-[700px] pointer-events-none opacity-80">
+      <div className="absolute top-[32%] -left-8 md:-left-12 w-[60%] md:w-[45%] max-w-[620px] pointer-events-none opacity-80">
         <Image src="/motifs/katana.svg" alt="" width={400} height={60} className="w-full h-auto" />
       </div>
       <div
-        className="absolute bottom-[30%] -right-8 md:-right-12 w-[60%] md:w-[50%] max-w-[700px] pointer-events-none opacity-80"
+        className="absolute bottom-[28%] -right-8 md:-right-12 w-[60%] md:w-[45%] max-w-[620px] pointer-events-none opacity-80"
         style={{ transform: "rotate(180deg)" }}
       >
         <Image src="/motifs/katana.svg" alt="" width={400} height={60} className="w-full h-auto" />
       </div>
 
-      <div className="relative max-w-[1100px] mx-auto">
+      <div className="relative max-w-[980px] mx-auto">
         <ScrollFadeIn>
           <p
             className="text-[10px] md:text-xs tracking-[0.5em] text-white/55 uppercase mb-12 md:mb-16 text-center"
@@ -47,7 +47,7 @@ export function Philosophy() {
 
         <ScrollFadeIn>
           <h2
-            className="text-center text-5xl md:text-[96px] font-normal leading-[1.5] md:leading-[1.4] tracking-[0.15em] md:tracking-[0.25em] text-white"
+            className="text-center text-5xl md:text-[96px] font-normal leading-[1.5] md:leading-[1.4] tracking-[0.15em] md:tracking-[0.25em] text-white mb-20 md:mb-28"
             style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
           >
             夢なき者に、
@@ -56,22 +56,49 @@ export function Philosophy() {
           </h2>
         </ScrollFadeIn>
 
+        {/* 詩的な補足文 */}
         <ScrollFadeIn>
-          <p
-            className="mt-16 md:mt-24 text-center text-[14px] md:text-[15px] text-white/75 leading-[2.2] md:leading-[2.4] max-w-[720px] mx-auto"
+          <div
+            className="max-w-[720px] mx-auto text-white/85 text-[15px] md:text-base leading-[2.4] md:leading-[2.6]"
             style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
           >
-            周りの評価やカタチに囚われず、理想を生きる人へ。
-            地方に生まれただけで、夢を諦めなくていい。
-            本質的価値と市場評価のギャップを埋め、
-            未開拓の人的資本を、次世代のビジネス戦闘力へと変換する。
-          </p>
+            <p>
+              夢がないのは、あなたのせいじゃない。
+              <br />
+              見えてないから、選べない。
+              <br />
+              選べないから、動けない。
+              <br />
+              情報は山ほどあるのに、手ざわりがない──それが今。
+            </p>
+            <p className="mt-8">
+              だから、私たちは見せる。
+              <br />
+              地図みたいに、道すじを。
+              <br />
+              会わせる。近い距離で、背中に。
+              <br />
+              そしてやってみる。小さく、すぐに。
+            </p>
+            <p className="mt-8 text-[#e8dfc9]">
+              「こんな生き方もある。」
+              <br />
+              「これ、やってみたら面白いかも。」
+            </p>
+            <p className="mt-8">
+              そう思える理想の“見える形”を、私たちは背中で見せ続けます。
+              <br />
+              憧れを設計図に、迷いを一歩目に。
+              <br />
+              その先で、理想はちゃんと、あなたのものになる。
+            </p>
+          </div>
         </ScrollFadeIn>
 
         {/* 革命コピー */}
         <ScrollFadeIn>
           <p
-            className="mt-14 md:mt-20 text-center text-sm md:text-base tracking-[0.4em] text-[#e8dfc9]/85"
+            className="mt-16 md:mt-24 text-center text-sm md:text-base tracking-[0.4em] text-[#e8dfc9]/85"
             style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
           >
             ──　地方に、革命を。　──
