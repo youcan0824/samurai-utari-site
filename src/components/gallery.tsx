@@ -16,14 +16,22 @@ export function Gallery() {
   return (
     <section className="py-[160px] md:py-[200px] px-6 md:px-[60px] bg-[#faf8f3]">
       <ScrollFadeIn>
-        <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-12 md:mb-16 max-w-[980px] mx-auto">
+        <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-6 md:mb-8 max-w-[980px] mx-auto">
           <span
             className="text-[#123563] font-medium"
             style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
           >
-            文化
+            これまでの歩み
           </span>
-          <span className="text-[10px] ml-3 uppercase text-[#1c1e2b]/30">/ Culture</span>
+          <span className="text-[10px] ml-3 uppercase text-[#1c1e2b]/30">/ Story</span>
+        </p>
+        <p
+          className="text-[14px] md:text-[15px] text-[#1c1e2b]/70 leading-[2.1] mb-12 md:mb-16 max-w-[980px] mx-auto"
+          style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+        >
+          一人の地方大学生の違和感から、会社は始まった。
+          <br className="hidden md:inline" />
+          地方の同胞たちと共に重ねてきた、熱狂の軌跡。
         </p>
       </ScrollFadeIn>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 max-w-[980px] mx-auto">
