@@ -17,60 +17,65 @@ export function Hero() {
       </div>
 
       {/* イラスト群像 */}
-      <div className="flex-1 flex items-end justify-center pt-32 md:pt-36 pb-24 md:pb-28 px-4 md:px-12">
-        <div className="relative w-full max-w-[1400px] h-[62vh] md:h-[70vh] flex items-end justify-center gap-2 md:gap-3">
-          {/* 木1（一番大きい） */}
+      <div className="flex-1 flex items-end justify-center pt-32 md:pt-36 pb-24 md:pb-28 px-4 md:px-10">
+        <div className="relative w-full max-w-[1400px] h-[62vh] md:h-[70vh] flex items-end justify-center gap-1 md:gap-3">
+          {/* 木1（大） */}
           <div
-            className="relative h-[55%] md:h-[58%] aspect-[120/220] shrink-0 hero-sway hero-fade"
+            className="relative h-[55%] md:h-[58%] aspect-[120/220] shrink-0 hero-sway"
             style={{ animationDelay: "0s, 0.05s" }}
           >
             <Image src="/motifs/tree.svg" alt="" fill className="object-contain object-bottom" priority />
           </div>
-          {/* 木2 */}
+          {/* 木2（中） */}
           <div
-            className="relative h-[50%] md:h-[52%] aspect-[120/220] shrink-0 hero-sway-slow hero-fade"
-            style={{ animationDelay: "0.3s, 0.15s" }}
-          >
-            <Image src="/motifs/tree.svg" alt="" fill className="object-contain object-bottom" priority />
-          </div>
-          {/* 木3 */}
-          <div
-            className="relative h-[45%] md:h-[46%] aspect-[120/220] shrink-0 hero-sway hero-fade"
-            style={{ animationDelay: "0.6s, 0.25s" }}
+            className="relative h-[48%] md:h-[50%] aspect-[120/220] shrink-0 hero-sway-slow"
+            style={{ animationDelay: "0.15s, 0.15s" }}
           >
             <Image src="/motifs/tree.svg" alt="" fill className="object-contain object-bottom" priority />
           </div>
 
           {/* 焚き火 */}
           <div
-            className="relative h-[32%] md:h-[34%] aspect-[140/240] shrink-0 self-end mb-2 hero-fire hero-fade"
-            style={{ animationDelay: "0.2s, 0.35s" }}
+            className="relative h-[30%] md:h-[32%] aspect-[140/240] shrink-0 self-end mb-2 hero-fire"
+            style={{ animationDelay: "0.3s, 0.25s" }}
           >
             <Image src="/motifs/fire.svg" alt="" fill className="object-contain object-bottom" priority />
           </div>
 
-          {/* サムライ（主役・大きい） */}
+          {/* サムライ（主役） */}
           <div
-            className="relative h-[85%] md:h-[88%] aspect-[3/5] shrink-0 hero-sway-mini hero-fade"
-            style={{ animationDelay: "0.4s, 0.45s" }}
+            className="relative h-[72%] md:h-[75%] aspect-[3/5] shrink-0 hero-sway-mini"
+            style={{ animationDelay: "0.45s, 0.35s" }}
           >
-            <Image src="/silhouettes/samurai.png" alt="Samurai" fill className="object-contain object-bottom" priority />
-          </div>
-
-          {/* 家紋 */}
-          <div
-            className="relative h-[32%] md:h-[34%] aspect-square shrink-0 self-center text-[#1c1e2b] hero-rotate hero-fade hidden md:block"
-            style={{ animationDelay: "0s, 0.55s" }}
-          >
-            <Image src="/motifs/kamon.svg" alt="" fill className="object-contain" priority />
+            <Image
+              src="/silhouettes/samurai.png"
+              alt="Samurai"
+              fill
+              className="object-contain object-bottom mix-blend-multiply"
+              priority
+            />
           </div>
 
           {/* ウタリ（アイヌ偶像） */}
           <div
-            className="relative h-[75%] md:h-[78%] aspect-[3/5] shrink-0 hero-sway-mini hero-fade"
-            style={{ animationDelay: "0.5s, 0.65s" }}
+            className="relative h-[66%] md:h-[68%] aspect-[3/5] shrink-0 hero-sway-mini"
+            style={{ animationDelay: "0.6s, 0.45s" }}
           >
-            <Image src="/silhouettes/utari.png" alt="Utari" fill className="object-contain object-bottom" priority />
+            <Image
+              src="/silhouettes/utari.png"
+              alt="Utari"
+              fill
+              className="object-contain object-bottom mix-blend-multiply"
+              priority
+            />
+          </div>
+
+          {/* 木3（小） */}
+          <div
+            className="relative h-[42%] md:h-[44%] aspect-[120/220] shrink-0 hero-sway hidden md:block"
+            style={{ animationDelay: "0.75s, 0.55s" }}
+          >
+            <Image src="/motifs/tree.svg" alt="" fill className="object-contain object-bottom" priority />
           </div>
         </div>
       </div>
@@ -106,23 +111,10 @@ export function Hero() {
           33% { transform: translateY(-3px) scaleY(1.04); }
           66% { transform: translateY(-1px) scaleY(0.98); }
         }
-        @keyframes hero-rotate {
-          0%, 100% { transform: rotate(0deg); }
-          50% { transform: rotate(6deg); }
-        }
-        .hero-fade {
-          animation-name: hero-fade-in, hero-idle;
-          animation-duration: 1s, 5s;
-          animation-iteration-count: 1, infinite;
-          animation-timing-function: ease-out, ease-in-out;
-          animation-fill-mode: both, both;
-          opacity: 0;
-        }
         .hero-sway { animation: hero-fade-in 1s ease-out both, hero-sway 5s ease-in-out infinite; }
         .hero-sway-slow { animation: hero-fade-in 1s ease-out both, hero-sway-slow 6s ease-in-out infinite; }
         .hero-sway-mini { animation: hero-fade-in 1s ease-out both, hero-sway-mini 7s ease-in-out infinite; }
         .hero-fire { animation: hero-fade-in 1s ease-out both, hero-fire 1.6s ease-in-out infinite; transform-origin: bottom center; }
-        .hero-rotate { animation: hero-fade-in 1s ease-out both, hero-rotate 12s ease-in-out infinite; }
       `}</style>
     </section>
   );
