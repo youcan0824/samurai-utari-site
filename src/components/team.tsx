@@ -62,14 +62,14 @@ function PhotoOrInitial({ photo, initial, name }: { photo: string; initial: stri
 
 export function Team() {
   return (
-    <section id="team" className="py-[120px] px-6 md:px-[60px] bg-[#0d1117]">
+    <section id="team" className="py-[160px] px-6 md:px-[60px] bg-[#0d1117]">
       <ScrollFadeIn>
-        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[1100px] mx-auto">
+        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[980px] mx-auto">
           <span className="text-white/70">UTARI</span>
           <span className="text-[10px] ml-3 uppercase text-white/25">/ Team</span>
         </p>
       </ScrollFadeIn>
-      <div className="grid md:grid-cols-3 gap-10 max-w-[1100px] mx-auto">
+      <div className="grid md:grid-cols-3 gap-10 max-w-[980px] mx-auto">
         {members.map((m, i) => (
           <ScrollFadeIn key={i}>
             <div className="text-center">

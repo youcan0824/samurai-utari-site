@@ -47,7 +47,7 @@ const stats = [
 export function Numbers() {
   return (
     <section className="py-24 px-6 md:px-[60px] bg-[#0d1117] border-y border-white/[0.05]">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-12 max-w-[1100px] mx-auto text-center">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-12 max-w-[980px] mx-auto text-center">
         {stats.map((stat, i) => (
           <motion.div
             key={i}

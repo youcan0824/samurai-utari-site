@@ -3,21 +3,21 @@ import { ScrollFadeIn } from "./scroll-fade-in";
 
 export function About() {
   return (
-    <section id="about" className="py-[120px] px-6 md:px-[60px] bg-[#0d1117]">
+    <section id="about" className="py-[160px] px-6 md:px-[60px] bg-[#0d1117]">
       <ScrollFadeIn>
-        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[1100px] mx-auto">
+        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[980px] mx-auto">
           <span className="text-white/70">会社について</span>
           <span className="text-[10px] ml-3 uppercase text-white/25">/ About</span>
         </p>
       </ScrollFadeIn>
-      <div className="grid md:grid-cols-2 gap-12 md:gap-20 max-w-[1100px] mx-auto">
+      <div className="grid md:grid-cols-2 gap-12 md:gap-20 max-w-[980px] mx-auto">
         <ScrollFadeIn>
           <h2 className="text-2xl md:text-[32px] font-light tracking-[0.05em] leading-[1.6] mb-6">
             地方から、
             <br />
-            <span className="text-[#4a7fc8]">次世代のキャリア</span>を
+            <span className="text-[#4a7fc8]">次世代のキャリア</span>の
             <br />
-            再定義する。
+            再定義を。
           </h2>
           <p className="text-sm text-white/60 leading-[2]">
             地方と都市のビジネスリテラシー格差をなくす。

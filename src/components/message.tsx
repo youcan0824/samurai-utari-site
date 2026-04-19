@@ -2,7 +2,7 @@ import { ScrollFadeIn } from "./scroll-fade-in";
 
 export function Message() {
   return (
-    <section className="py-[120px] px-6 md:px-[60px] bg-[#0d1117]">
+    <section className="py-[160px] px-6 md:px-[60px] bg-[#0d1117]">
       <ScrollFadeIn>
         <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[900px] mx-auto">
           <span className="text-white/70">代表の言葉</span>

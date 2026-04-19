@@ -2,7 +2,7 @@ import { ScrollFadeIn } from "./scroll-fade-in";
 
 export function Contact() {
   return (
-    <section id="contact" className="py-[120px] px-6 md:px-[60px] bg-gradient-to-b from-[#0f1925] to-[#123563] text-center">
+    <section id="contact" className="py-[160px] px-6 md:px-[60px] bg-gradient-to-b from-[#0f1925] to-[#123563] text-center">
       <ScrollFadeIn>
         <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10">
           <span className="text-white/70">連絡</span>

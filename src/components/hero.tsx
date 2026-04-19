@@ -31,7 +31,7 @@ export function Hero() {
           株式会社サムライウタリ
         </p>
         <h1 className="text-4xl md:text-[60px] font-extralight tracking-[0.15em] md:tracking-[0.3em] text-white [text-shadow:0_0_80px_rgba(18,53,99,0.5)]">
-          夢なき者に理想を
+          夢なき者に、理想を。
         </h1>
         <p className="mt-8 text-[11px] tracking-[0.4em] uppercase text-white/30">
           Samurai Utari Inc.

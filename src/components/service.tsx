@@ -7,14 +7,14 @@ const services = [
 
 export function Service() {
   return (
-    <section id="service" className="py-[120px] px-6 md:px-[60px] bg-[#0f1520]">
+    <section id="service" className="py-[160px] px-6 md:px-[60px] bg-[#0f1520]">
       <ScrollFadeIn>
-        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[1100px] mx-auto">
+        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[980px] mx-auto">
           <span className="text-white/70">事業</span>
           <span className="text-[10px] ml-3 uppercase text-white/25">/ Service</span>
         </p>
       </ScrollFadeIn>
-      <div className="grid md:grid-cols-2 gap-8 max-w-[1100px] mx-auto">
+      <div className="grid md:grid-cols-2 gap-8 max-w-[980px] mx-auto">
         {services.map((svc, i) => (
           <ScrollFadeIn key={i}>
             <div className="group relative p-10 md:p-12 bg-white/[0.03] border border-white/[0.08] rounded-xl overflow-hidden transition-all duration-300 hover:border-[#4a7fc8]/30 hover:-translate-y-1">

@@ -14,14 +14,14 @@ const photos = [
 
 export function Gallery() {
   return (
-    <section className="py-[100px] px-6 md:px-[60px] bg-[#0d1117]">
+    <section className="py-[140px] px-6 md:px-[60px] bg-[#0d1117]">
       <ScrollFadeIn>
-        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[1100px] mx-auto">
+        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[980px] mx-auto">
           <span className="text-white/70">文化</span>
           <span className="text-[10px] ml-3 uppercase text-white/25">/ Culture</span>
         </p>
       </ScrollFadeIn>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 max-w-[1100px] mx-auto">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4 max-w-[980px] mx-auto">
         {photos.map((photo, i) => (
           <ScrollFadeIn key={i}>
             <div className="group relative aspect-[4/3] rounded-lg overflow-hidden bg-gradient-to-br from-[#123563]/30 to-[#1e508c]/15">

@@ -1,5 +1,6 @@
 import { Nav } from "@/components/nav";
 import { Hero } from "@/components/hero";
+import { Prologue } from "@/components/prologue";
 import { SectionDivider } from "@/components/section-divider";
 import { About } from "@/components/about";
 import { Message } from "@/components/message";
@@ -16,6 +17,7 @@ export default function Home() {
     <main>
       <Nav />
       <Hero />
+      <Prologue />
       <SectionDivider />
       <About />
       <Message />
