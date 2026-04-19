@@ -100,7 +100,7 @@ export function About() {
                     className="text-[13px] md:text-sm text-[#1a1a1a]/85 leading-[2]"
                     style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
                   >
-                    アイヌ語で「同胞」。ひとりで戦うのではなく、志を同じくする仲間とともに歩む。44人のサムライウタリをつくることが、私たちのミッションです。
+                    アイヌ語で「同胞」。ひとりで戦うのではなく、志を同じくする仲間とともに歩む。理想を生きる者たちの集合体をつくることが、私たちのミッションです。
                   </p>
                 </div>
                 <div className="relative w-28 md:w-36 shrink-0">
