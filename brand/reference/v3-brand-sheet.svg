@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2400 1600" width="2400" height="1600">
+  <rect width="2400" height="1600" fill="#f6f2e7"/>
+  
+<rect x="0" y="0" width="2400" height="140" fill="#123563"/>
+<text x="80" y="82" font-family="'Noto Serif CJK SC','Noto Serif JP',serif"
+      font-size="48" fill="#f6f2e7" font-weight="700" letter-spacing="4">株式会社サムライウタリ / SAMURAI UTARI Inc.</text>
+<text x="80" y="120" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="20" fill="#f6f2e7" opacity="0.8" letter-spacing="2">Brand Identity System — Logo Guidelines v1.0</text>
+<polygon points="2320,20 2340,60 2320,100 2300,60" fill="#8b2500"/>
+  <g><defs><clipPath id="cp1"><circle cx="400.000" cy="360.000" r="226.080"/></clipPath><radialGradient id="g1" cx="40%" cy="40%" r="70%"><stop offset="0%" stop-color="#b23818"/><stop offset="60%" stop-color="#8b2500"/><stop offset="100%" stop-color="#6a1c00"/></radialGradient></defs>
+  <g clip-path="url(#cp1)"><line x1="192.006" y1="133.920" x2="192.006" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="210.093" y1="133.920" x2="210.093" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="228.179" y1="133.920" x2="228.179" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="246.266" y1="133.920" x2="246.266" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="264.352" y1="133.920" x2="264.352" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="282.438" y1="133.920" x2="282.438" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="300.525" y1="133.920" x2="300.525" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="318.611" y1="133.920" x2="318.611" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="336.698" y1="133.920" x2="336.698" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="354.784" y1="133.920" x2="354.784" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="372.870" y1="133.920" x2="372.870" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="390.957" y1="133.920" x2="390.957" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="409.043" y1="133.920" x2="409.043" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="427.130" y1="133.920" x2="427.130" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="445.216" y1="133.920" x2="445.216" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="463.302" y1="133.920" x2="463.302" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="481.389" y1="133.920" x2="481.389" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="499.475" y1="133.920" x2="499.475" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="517.562" y1="133.920" x2="517.562" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="535.648" y1="133.920" x2="535.648" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="553.734" y1="133.920" x2="553.734" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="571.821" y1="133.920" x2="571.821" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="589.907" y1="133.920" x2="589.907" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/>
+        <line x1="607.994" y1="133.920" x2="607.994" y2="586.080" stroke="#123563" stroke-width="0.768" opacity="0.28"/></g>
+  <circle cx="400.000" cy="360.000" r="240.000" fill="none" stroke="#123563" stroke-width="8.400"/>
+  <circle cx="400.000" cy="360.000" r="226.080" fill="none" stroke="#123563" stroke-width="2.040"/>
+  <g><path d="M 390.971,322.677 C 379.350,320.966 328.018,250.501 323.238,233.650 C 326.487,212.684 347.958,196.734 368.290,195.020 C 384.153,193.593 394.630,209.232 400.000,220.560 C 405.370,209.232 415.847,193.593 431.710,195.020 C 452.042,196.734 473.513,212.684 476.762,233.650 C 471.982,250.501 420.650,320.966 409.029,322.677 Z" fill="#123563" stroke="#0a2044" stroke-width="0.960" stroke-linejoin="round"/>
+        <path d="M 432.706,339.879 C 430.743,328.298 481.896,257.704 496.445,247.951 C 517.389,244.561 539.194,260.053 547.106,278.860 C 553.365,293.506 541.730,308.303 532.615,316.911 C 545.049,318.517 563.160,323.649 566.705,339.177 C 571.357,359.043 562.823,384.392 543.887,393.960 C 526.384,394.622 443.505,367.577 438.287,357.054 Z" fill="#123563" stroke="#0a2044" stroke-width="0.960" stroke-linejoin="round"/>
+        <path d="M 429.243,384.888 C 439.650,379.442 522.597,406.277 536.368,417.100 C 546.064,435.971 538.068,461.496 522.627,474.833 C 510.632,485.311 492.964,478.818 481.961,472.809 C 484.275,485.131 484.991,503.941 471.319,512.111 C 453.863,522.675 427.117,522.392 412.165,507.339 C 406.127,490.897 406.237,403.717 414.633,395.503 Z" fill="#123563" stroke="#0a2044" stroke-width="0.960" stroke-linejoin="round"/>
+        <path d="M 385.367,395.503 C 393.763,403.717 393.873,490.897 387.835,507.339 C 372.883,522.392 346.137,522.675 328.681,512.111 C 315.009,503.941 315.725,485.131 318.039,472.809 C 307.036,478.818 289.368,485.311 277.373,474.833 C 261.932,461.496 253.936,435.971 263.632,417.100 C 277.403,406.277 360.350,379.442 370.757,384.888 Z" fill="#123563" stroke="#0a2044" stroke-width="0.960" stroke-linejoin="round"/>
+        <path d="M 361.713,357.054 C 356.495,367.577 273.616,394.622 256.113,393.960 C 237.177,384.392 228.643,359.043 233.295,339.177 C 236.840,323.649 254.951,318.517 267.385,316.911 C 258.270,308.303 246.635,293.506 252.894,278.860 C 260.806,260.053 282.611,244.561 303.555,247.951 C 318.104,257.704 369.257,328.298 367.294,339.879 Z" fill="#123563" stroke="#0a2044" stroke-width="0.960" stroke-linejoin="round"/></g>
+  <circle cx="400.000" cy="360.000" r="39.600" fill="url(#g1)" stroke="#0a2044" stroke-width="1.200"/>
+  <g><line x1="400.000" y1="356.760" x2="400.000" y2="330.192" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="400.000" cy="327.600" r="2.916" fill="#0a2044"/>
+        <line x1="401.904" y1="357.379" x2="417.521" y2="335.885" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="419.044" cy="333.788" r="2.916" fill="#0a2044"/>
+        <line x1="403.081" y1="358.999" x2="428.349" y2="350.789" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="430.814" cy="349.988" r="2.916" fill="#0a2044"/>
+        <line x1="403.081" y1="361.001" x2="428.349" y2="369.211" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="430.814" cy="370.012" r="2.916" fill="#0a2044"/>
+        <line x1="401.904" y1="362.621" x2="417.521" y2="384.115" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="419.044" cy="386.212" r="2.916" fill="#0a2044"/>
+        <line x1="400.000" y1="363.240" x2="400.000" y2="389.808" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="400.000" cy="392.400" r="2.916" fill="#0a2044"/>
+        <line x1="398.096" y1="362.621" x2="382.479" y2="384.115" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="380.956" cy="386.212" r="2.916" fill="#0a2044"/>
+        <line x1="396.919" y1="361.001" x2="371.651" y2="369.211" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="369.186" cy="370.012" r="2.916" fill="#0a2044"/>
+        <line x1="396.919" y1="358.999" x2="371.651" y2="350.789" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="369.186" cy="349.988" r="2.916" fill="#0a2044"/>
+        <line x1="398.096" y1="357.379" x2="382.479" y2="335.885" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="380.956" cy="333.788" r="2.916" fill="#0a2044"/></g>
+  <circle cx="400.000" cy="360.000" r="11.520" fill="#8b2500"/>
+  <circle cx="395.968" cy="355.968" r="4.032" fill="#b23818" opacity="0.8"/>
+  <g clip-path="url(#cp1)"><path d="M 345.143,310.961 Q 452.655,258.310 537.106,206.298 L 535.872,207.010 Q 445.298,245.567 336.837,296.574 Z" fill="#123563" stroke="#0a2044" stroke-width="1.6" stroke-linejoin="round"/><path d="M 345.143,310.961 Q 452.655,258.310 537.106,206.298" fill="none" stroke="#c9dbf2" stroke-width="1.5" opacity="0.55"/><path d="M 342.863,301.316 Q 445.683,246.235 532.503,210.667" fill="none" stroke="#1f4a86" stroke-width="1.0" opacity="0.7"/><polygon points="336.842,314.384 343.719,308.495 337.074,296.985 328.536,299.997" fill="#1f4a86" stroke="#0a2044" stroke-width="0.8"/><polygon points="341.946,328.564 332.689,307.190 318.807,288.486 328.065,309.860" fill="#0a2044" stroke="#1f4a86" stroke-width="1.0"/><circle cx="330.377" cy="308.525" r="3.008" fill="none" stroke="#1f4a86" stroke-width="0.7"/><polygon points="275.905,350.045 332.633,317.773 323.496,301.947 267.183,334.939" fill="#0a2044" stroke="#1f4a86" stroke-width="0.6"/><line x1="285.325" y1="344.607" x2="276.603" y2="329.500" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="294.745" y1="339.168" x2="286.023" y2="324.062" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="304.165" y1="333.729" x2="295.444" y2="318.623" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="313.585" y1="328.291" x2="304.864" y2="313.184" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="323.005" y1="322.852" x2="314.284" y2="307.746" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><ellipse cx="271.544" cy="342.492" rx="4.984" ry="11.629" transform="rotate(-30 271.544 342.492)" fill="#0a2044" stroke="#1f4a86" stroke-width="0.8"/></g>
+  <g clip-path="url(#cp1)"><defs><linearGradient id="grad_cp1slash" x1="163.826" y1="339.262" x2="579.518" y2="99.262" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#8b2500" stop-opacity="0"/><stop offset="38.2%" stop-color="#b23818" stop-opacity="0.0"/><stop offset="50%" stop-color="#b23818" stop-opacity="0.90"/><stop offset="61.8%" stop-color="#8b2500" stop-opacity="0.95"/><stop offset="76.4%" stop-color="#8b2500" stop-opacity="0.5"/><stop offset="100%" stop-color="#8b2500" stop-opacity="0"/></linearGradient></defs><line x1="163.826" y1="339.262" x2="579.518" y2="99.262" stroke="url(#grad_cp1slash)" stroke-width="2.880" stroke-linecap="round"/></g></g><text x="400.000" y="670.000" text-anchor="middle" font-family="'IPAexGothic','Noto Sans JP',sans-serif" font-size="26" fill="#123563" font-weight="600" style="">01  ロゴマーク単体</text><text x="400.000" y="704.000" text-anchor="middle" font-family="'IPAexGothic','Noto Sans JP',sans-serif" font-size="20" fill="#0a2044" font-weight="600" style="font-style:italic;">— Logomark only</text><g><defs><clipPath id="cp2"><circle cx="1200.000" cy="330.000" r="192.168"/></clipPath><radialGradient id="g2" cx="40%" cy="40%" r="70%"><stop offset="0%" stop-color="#b23818"/><stop offset="60%" stop-color="#8b2500"/><stop offset="100%" stop-color="#6a1c00"/></radialGradient></defs>
+  <g clip-path="url(#cp2)"><line x1="1023.205" y1="137.832" x2="1023.205" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1038.579" y1="137.832" x2="1038.579" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1053.952" y1="137.832" x2="1053.952" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1069.326" y1="137.832" x2="1069.326" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1084.699" y1="137.832" x2="1084.699" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1100.073" y1="137.832" x2="1100.073" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1115.446" y1="137.832" x2="1115.446" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1130.820" y1="137.832" x2="1130.820" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1146.193" y1="137.832" x2="1146.193" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1161.566" y1="137.832" x2="1161.566" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1176.940" y1="137.832" x2="1176.940" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1192.313" y1="137.832" x2="1192.313" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1207.687" y1="137.832" x2="1207.687" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1223.060" y1="137.832" x2="1223.060" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1238.434" y1="137.832" x2="1238.434" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1253.807" y1="137.832" x2="1253.807" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1269.180" y1="137.832" x2="1269.180" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1284.554" y1="137.832" x2="1284.554" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1299.927" y1="137.832" x2="1299.927" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1315.301" y1="137.832" x2="1315.301" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1330.674" y1="137.832" x2="1330.674" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1346.048" y1="137.832" x2="1346.048" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1361.421" y1="137.832" x2="1361.421" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1376.795" y1="137.832" x2="1376.795" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/></g>
+  <circle cx="1200.000" cy="330.000" r="204.000" fill="none" stroke="#123563" stroke-width="7.140"/>
+  <circle cx="1200.000" cy="330.000" r="192.168" fill="none" stroke="#123563" stroke-width="1.734"/>
+  <g><path d="M 1192.325,298.275 C 1182.447,296.821 1138.815,236.926 1134.753,222.603 C 1137.514,204.781 1155.764,191.224 1173.046,189.767 C 1186.530,188.554 1195.435,201.847 1200.000,211.476 C 1204.565,201.847 1213.470,188.554 1226.954,189.767 C 1244.236,191.224 1262.486,204.781 1265.247,222.603 C 1261.185,236.926 1217.553,296.821 1207.675,298.275 Z" fill="#123563" stroke="#0a2044" stroke-width="0.816" stroke-linejoin="round"/>
+        <path d="M 1227.800,312.897 C 1226.131,303.054 1269.612,243.048 1281.979,234.758 C 1299.781,231.877 1318.315,245.045 1325.040,261.031 C 1330.361,273.480 1320.470,286.057 1312.723,293.374 C 1323.291,294.740 1338.686,299.102 1341.699,312.300 C 1345.654,329.187 1338.400,350.733 1322.304,358.866 C 1307.426,359.429 1236.979,336.441 1232.544,327.496 Z" fill="#123563" stroke="#0a2044" stroke-width="0.816" stroke-linejoin="round"/>
+        <path d="M 1224.857,351.155 C 1233.703,346.525 1304.207,369.335 1315.913,378.535 C 1324.154,394.576 1317.358,416.271 1304.233,427.608 C 1294.038,436.515 1279.020,430.995 1269.667,425.888 C 1271.634,436.361 1272.242,452.350 1260.621,459.294 C 1245.783,468.274 1223.049,468.033 1210.340,455.238 C 1205.208,441.262 1205.302,367.160 1212.438,360.177 Z" fill="#123563" stroke="#0a2044" stroke-width="0.816" stroke-linejoin="round"/>
+        <path d="M 1187.562,360.177 C 1194.698,367.160 1194.792,441.262 1189.660,455.238 C 1176.951,468.033 1154.217,468.274 1139.379,459.294 C 1127.758,452.350 1128.366,436.361 1130.333,425.888 C 1120.980,430.995 1105.962,436.515 1095.767,427.608 C 1082.642,416.271 1075.846,394.576 1084.087,378.535 C 1095.793,369.335 1166.297,346.525 1175.143,351.155 Z" fill="#123563" stroke="#0a2044" stroke-width="0.816" stroke-linejoin="round"/>
+        <path d="M 1167.456,327.496 C 1163.021,336.441 1092.574,359.429 1077.696,358.866 C 1061.600,350.733 1054.346,329.187 1058.301,312.300 C 1061.314,299.102 1076.709,294.740 1087.277,293.374 C 1079.530,286.057 1069.639,273.480 1074.960,261.031 C 1081.685,245.045 1100.219,231.877 1118.021,234.758 C 1130.388,243.048 1173.869,303.054 1172.200,312.897 Z" fill="#123563" stroke="#0a2044" stroke-width="0.816" stroke-linejoin="round"/></g>
+  <circle cx="1200.000" cy="330.000" r="33.660" fill="url(#g2)" stroke="#0a2044" stroke-width="1.020"/>
+  <g><line x1="1200.000" y1="327.246" x2="1200.000" y2="304.663" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1200.000" cy="302.460" r="2.479" fill="#0a2044"/>
+        <line x1="1201.619" y1="327.772" x2="1214.893" y2="309.502" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1216.188" cy="307.720" r="2.479" fill="#0a2044"/>
+        <line x1="1202.619" y1="329.149" x2="1224.097" y2="322.170" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1226.192" cy="321.490" r="2.479" fill="#0a2044"/>
+        <line x1="1202.619" y1="330.851" x2="1224.097" y2="337.830" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1226.192" cy="338.510" r="2.479" fill="#0a2044"/>
+        <line x1="1201.619" y1="332.228" x2="1214.893" y2="350.498" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1216.188" cy="352.280" r="2.479" fill="#0a2044"/>
+        <line x1="1200.000" y1="332.754" x2="1200.000" y2="355.337" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1200.000" cy="357.540" r="2.479" fill="#0a2044"/>
+        <line x1="1198.381" y1="332.228" x2="1185.107" y2="350.498" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1183.812" cy="352.280" r="2.479" fill="#0a2044"/>
+        <line x1="1197.381" y1="330.851" x2="1175.903" y2="337.830" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1173.808" cy="338.510" r="2.479" fill="#0a2044"/>
+        <line x1="1197.381" y1="329.149" x2="1175.903" y2="322.170" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1173.808" cy="321.490" r="2.479" fill="#0a2044"/>
+        <line x1="1198.381" y1="327.772" x2="1185.107" y2="309.502" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1183.812" cy="307.720" r="2.479" fill="#0a2044"/></g>
+  <circle cx="1200.000" cy="330.000" r="9.792" fill="#8b2500"/>
+  <circle cx="1196.573" cy="326.573" r="3.427" fill="#b23818" opacity="0.8"/>
+  <g clip-path="url(#cp2)"><path d="M 1153.371,288.317 Q 1244.756,243.563 1316.540,199.353 L 1315.492,199.958 Q 1238.503,232.732 1146.311,276.088 Z" fill="#123563" stroke="#0a2044" stroke-width="1.6" stroke-linejoin="round"/><path d="M 1153.371,288.317 Q 1244.756,243.563 1316.540,199.353" fill="none" stroke="#c9dbf2" stroke-width="1.5" opacity="0.55"/><path d="M 1151.433,280.119 Q 1238.831,233.300 1312.628,203.067" fill="none" stroke="#1f4a86" stroke-width="1.0" opacity="0.7"/><polygon points="1146.316,291.226 1152.161,286.221 1146.513,276.438 1139.256,278.997" fill="#1f4a86" stroke="#0a2044" stroke-width="0.8"/><polygon points="1150.654,303.280 1142.786,285.112 1130.986,269.213 1138.855,287.381" fill="#0a2044" stroke="#1f4a86" stroke-width="1.0"/><circle cx="1140.820" cy="286.246" r="2.557" fill="none" stroke="#1f4a86" stroke-width="0.7"/><polygon points="1094.519,321.539 1142.738,294.107 1134.972,280.655 1087.106,308.698" fill="#0a2044" stroke="#1f4a86" stroke-width="0.6"/><line x1="1102.526" y1="316.916" x2="1095.113" y2="304.075" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="1110.533" y1="312.293" x2="1103.120" y2="299.452" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="1118.540" y1="307.670" x2="1111.127" y2="294.829" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="1126.548" y1="303.047" x2="1119.134" y2="290.207" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="1134.555" y1="298.424" x2="1127.141" y2="285.584" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><ellipse cx="1090.812" cy="315.118" rx="4.236" ry="9.885" transform="rotate(-30 1090.812 315.118)" fill="#0a2044" stroke="#1f4a86" stroke-width="0.8"/></g>
+  <g clip-path="url(#cp2)"><defs><linearGradient id="grad_cp2slash" x1="999.252" y1="312.373" x2="1352.590" y2="108.373" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#8b2500" stop-opacity="0"/><stop offset="38.2%" stop-color="#b23818" stop-opacity="0.0"/><stop offset="50%" stop-color="#b23818" stop-opacity="0.90"/><stop offset="61.8%" stop-color="#8b2500" stop-opacity="0.95"/><stop offset="76.4%" stop-color="#8b2500" stop-opacity="0.5"/><stop offset="100%" stop-color="#8b2500" stop-opacity="0"/></linearGradient></defs><line x1="999.252" y1="312.373" x2="1352.590" y2="108.373" stroke="url(#grad_cp2slash)" stroke-width="2.448" stroke-linecap="round"/></g></g>
+<text x="1200" y="604.000" text-anchor="middle"
+      font-family="'Cinzel','Optima',serif" font-size="44" fill="#123563"
+      font-weight="700" letter-spacing="6">SAMURAI UTARI</text>
+<line x1="1060" y1="629.000" x2="1170" y2="629.000"
+      stroke="#123563" stroke-width="1" opacity="0.8"/>
+<line x1="1230" y1="629.000" x2="1340" y2="629.000"
+      stroke="#123563" stroke-width="1" opacity="0.8"/>
+<polygon points="1200,622.000 1208,629.000 1200,636.000 1192,629.000" fill="#8b2500"/>
+<text x="1200" y="659.000" text-anchor="middle"
+      font-family="'Cinzel','Optima',serif" font-size="16" fill="#8b2500"
+      letter-spacing="5">INCORPORATED</text>
+<text x="1200.000" y="704.000" text-anchor="middle" font-family="'IPAexGothic','Noto Sans JP',sans-serif" font-size="20" fill="#0a2044" font-weight="600" style="font-style:italic;">02  ロゴマーク + 英文社名 — Logo with English name</text><g><defs><clipPath id="cp3"><circle cx="2000.000" cy="330.000" r="192.168"/></clipPath><radialGradient id="g3" cx="40%" cy="40%" r="70%"><stop offset="0%" stop-color="#b23818"/><stop offset="60%" stop-color="#8b2500"/><stop offset="100%" stop-color="#6a1c00"/></radialGradient></defs>
+  <g clip-path="url(#cp3)"><line x1="1823.205" y1="137.832" x2="1823.205" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1838.579" y1="137.832" x2="1838.579" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1853.952" y1="137.832" x2="1853.952" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1869.326" y1="137.832" x2="1869.326" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1884.699" y1="137.832" x2="1884.699" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1900.073" y1="137.832" x2="1900.073" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1915.446" y1="137.832" x2="1915.446" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1930.820" y1="137.832" x2="1930.820" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1946.193" y1="137.832" x2="1946.193" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1961.566" y1="137.832" x2="1961.566" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1976.940" y1="137.832" x2="1976.940" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="1992.313" y1="137.832" x2="1992.313" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2007.687" y1="137.832" x2="2007.687" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2023.060" y1="137.832" x2="2023.060" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2038.434" y1="137.832" x2="2038.434" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2053.807" y1="137.832" x2="2053.807" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2069.180" y1="137.832" x2="2069.180" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2084.554" y1="137.832" x2="2084.554" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2099.927" y1="137.832" x2="2099.927" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2115.301" y1="137.832" x2="2115.301" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2130.674" y1="137.832" x2="2130.674" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2146.048" y1="137.832" x2="2146.048" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2161.421" y1="137.832" x2="2161.421" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/>
+        <line x1="2176.795" y1="137.832" x2="2176.795" y2="522.168" stroke="#123563" stroke-width="0.6528" opacity="0.28"/></g>
+  <circle cx="2000.000" cy="330.000" r="204.000" fill="none" stroke="#123563" stroke-width="7.140"/>
+  <circle cx="2000.000" cy="330.000" r="192.168" fill="none" stroke="#123563" stroke-width="1.734"/>
+  <g><path d="M 1992.325,298.275 C 1982.447,296.821 1938.815,236.926 1934.753,222.603 C 1937.514,204.781 1955.764,191.224 1973.046,189.767 C 1986.530,188.554 1995.435,201.847 2000.000,211.476 C 2004.565,201.847 2013.470,188.554 2026.954,189.767 C 2044.236,191.224 2062.486,204.781 2065.247,222.603 C 2061.185,236.926 2017.553,296.821 2007.675,298.275 Z" fill="#123563" stroke="#0a2044" stroke-width="0.816" stroke-linejoin="round"/>
+        <path d="M 2027.800,312.897 C 2026.131,303.054 2069.612,243.048 2081.979,234.758 C 2099.781,231.877 2118.315,245.045 2125.040,261.031 C 2130.361,273.480 2120.470,286.057 2112.723,293.374 C 2123.291,294.740 2138.686,299.102 2141.699,312.300 C 2145.654,329.187 2138.400,350.733 2122.304,358.866 C 2107.426,359.429 2036.979,336.441 2032.544,327.496 Z" fill="#123563" stroke="#0a2044" stroke-width="0.816" stroke-linejoin="round"/>
+        <path d="M 2024.857,351.155 C 2033.703,346.525 2104.207,369.335 2115.913,378.535 C 2124.154,394.576 2117.358,416.271 2104.233,427.608 C 2094.038,436.515 2079.020,430.995 2069.667,425.888 C 2071.634,436.361 2072.242,452.350 2060.621,459.294 C 2045.783,468.274 2023.049,468.033 2010.340,455.238 C 2005.208,441.262 2005.302,367.160 2012.438,360.177 Z" fill="#123563" stroke="#0a2044" stroke-width="0.816" stroke-linejoin="round"/>
+        <path d="M 1987.562,360.177 C 1994.698,367.160 1994.792,441.262 1989.660,455.238 C 1976.951,468.033 1954.217,468.274 1939.379,459.294 C 1927.758,452.350 1928.366,436.361 1930.333,425.888 C 1920.980,430.995 1905.962,436.515 1895.767,427.608 C 1882.642,416.271 1875.846,394.576 1884.087,378.535 C 1895.793,369.335 1966.297,346.525 1975.143,351.155 Z" fill="#123563" stroke="#0a2044" stroke-width="0.816" stroke-linejoin="round"/>
+        <path d="M 1967.456,327.496 C 1963.021,336.441 1892.574,359.429 1877.696,358.866 C 1861.600,350.733 1854.346,329.187 1858.301,312.300 C 1861.314,299.102 1876.709,294.740 1887.277,293.374 C 1879.530,286.057 1869.639,273.480 1874.960,261.031 C 1881.685,245.045 1900.219,231.877 1918.021,234.758 C 1930.388,243.048 1973.869,303.054 1972.200,312.897 Z" fill="#123563" stroke="#0a2044" stroke-width="0.816" stroke-linejoin="round"/></g>
+  <circle cx="2000.000" cy="330.000" r="33.660" fill="url(#g3)" stroke="#0a2044" stroke-width="1.020"/>
+  <g><line x1="2000.000" y1="327.246" x2="2000.000" y2="304.663" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="2000.000" cy="302.460" r="2.479" fill="#0a2044"/>
+        <line x1="2001.619" y1="327.772" x2="2014.893" y2="309.502" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="2016.188" cy="307.720" r="2.479" fill="#0a2044"/>
+        <line x1="2002.619" y1="329.149" x2="2024.097" y2="322.170" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="2026.192" cy="321.490" r="2.479" fill="#0a2044"/>
+        <line x1="2002.619" y1="330.851" x2="2024.097" y2="337.830" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="2026.192" cy="338.510" r="2.479" fill="#0a2044"/>
+        <line x1="2001.619" y1="332.228" x2="2014.893" y2="350.498" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="2016.188" cy="352.280" r="2.479" fill="#0a2044"/>
+        <line x1="2000.000" y1="332.754" x2="2000.000" y2="355.337" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="2000.000" cy="357.540" r="2.479" fill="#0a2044"/>
+        <line x1="1998.381" y1="332.228" x2="1985.107" y2="350.498" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1983.812" cy="352.280" r="2.479" fill="#0a2044"/>
+        <line x1="1997.381" y1="330.851" x2="1975.903" y2="337.830" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1973.808" cy="338.510" r="2.479" fill="#0a2044"/>
+        <line x1="1997.381" y1="329.149" x2="1975.903" y2="322.170" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1973.808" cy="321.490" r="2.479" fill="#0a2044"/>
+        <line x1="1998.381" y1="327.772" x2="1985.107" y2="309.502" stroke="#0a2044" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+        <circle cx="1983.812" cy="307.720" r="2.479" fill="#0a2044"/></g>
+  <circle cx="2000.000" cy="330.000" r="9.792" fill="#8b2500"/>
+  <circle cx="1996.573" cy="326.573" r="3.427" fill="#b23818" opacity="0.8"/>
+  <g clip-path="url(#cp3)"><path d="M 1953.371,288.317 Q 2044.756,243.563 2116.540,199.353 L 2115.492,199.958 Q 2038.503,232.732 1946.311,276.088 Z" fill="#123563" stroke="#0a2044" stroke-width="1.6" stroke-linejoin="round"/><path d="M 1953.371,288.317 Q 2044.756,243.563 2116.540,199.353" fill="none" stroke="#c9dbf2" stroke-width="1.5" opacity="0.55"/><path d="M 1951.433,280.119 Q 2038.831,233.300 2112.628,203.067" fill="none" stroke="#1f4a86" stroke-width="1.0" opacity="0.7"/><polygon points="1946.316,291.226 1952.161,286.221 1946.513,276.438 1939.256,278.997" fill="#1f4a86" stroke="#0a2044" stroke-width="0.8"/><polygon points="1950.654,303.280 1942.786,285.112 1930.986,269.213 1938.855,287.381" fill="#0a2044" stroke="#1f4a86" stroke-width="1.0"/><circle cx="1940.820" cy="286.246" r="2.557" fill="none" stroke="#1f4a86" stroke-width="0.7"/><polygon points="1894.519,321.539 1942.738,294.107 1934.972,280.655 1887.106,308.698" fill="#0a2044" stroke="#1f4a86" stroke-width="0.6"/><line x1="1902.526" y1="316.916" x2="1895.113" y2="304.075" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="1910.533" y1="312.293" x2="1903.120" y2="299.452" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="1918.540" y1="307.670" x2="1911.127" y2="294.829" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="1926.548" y1="303.047" x2="1919.134" y2="290.207" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><line x1="1934.555" y1="298.424" x2="1927.141" y2="285.584" stroke="#1f4a86" stroke-width="0.7" opacity="0.7"/><ellipse cx="1890.812" cy="315.118" rx="4.236" ry="9.885" transform="rotate(-30 1890.812 315.118)" fill="#0a2044" stroke="#1f4a86" stroke-width="0.8"/></g>
+  <g clip-path="url(#cp3)"><defs><linearGradient id="grad_cp3slash" x1="1799.252" y1="312.373" x2="2152.590" y2="108.373" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#8b2500" stop-opacity="0"/><stop offset="38.2%" stop-color="#b23818" stop-opacity="0.0"/><stop offset="50%" stop-color="#b23818" stop-opacity="0.90"/><stop offset="61.8%" stop-color="#8b2500" stop-opacity="0.95"/><stop offset="76.4%" stop-color="#8b2500" stop-opacity="0.5"/><stop offset="100%" stop-color="#8b2500" stop-opacity="0"/></linearGradient></defs><line x1="1799.252" y1="312.373" x2="2152.590" y2="108.373" stroke="url(#grad_cp3slash)" stroke-width="2.448" stroke-linecap="round"/></g></g>
+<text x="2000" y="604.000" text-anchor="middle"
+      font-family="'Noto Serif CJK SC','Noto Serif JP','Yu Mincho',serif"
+      font-size="40" fill="#123563" font-weight="700" letter-spacing="4">株式会社サムライウタリ</text>
+<line x1="1870" y1="629.000" x2="1970" y2="629.000"
+      stroke="#123563" stroke-width="1" opacity="0.8"/>
+<line x1="2030" y1="629.000" x2="2130" y2="629.000"
+      stroke="#123563" stroke-width="1" opacity="0.8"/>
+<polygon points="2000,622.000 2008,629.000 2000,636.000 1992,629.000" fill="#8b2500"/>
+<text x="2000" y="656.000" text-anchor="middle"
+      font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="18" fill="#8b2500" letter-spacing="4">SAMURAI UTARI Inc.</text>
+<text x="2000.000" y="704.000" text-anchor="middle" font-family="'IPAexGothic','Noto Sans JP',sans-serif" font-size="20" fill="#0a2044" font-weight="600" style="font-style:italic;">03  ロゴマーク + 和文社名 — Logo with Japanese name</text>
+  
+<text x="80" y="1050" font-family="'Noto Serif CJK SC','Noto Serif JP',serif"
+      font-size="34" fill="#123563" font-weight="700">COLOR PALETTE｜色彩体系</text>
+<line x1="80" y1="1070" x2="480" y2="1070" stroke="#123563" stroke-width="2"/>
+
+  
+  <rect x="80.000" y="1110.000" width="180.000" height="180.000" fill="#123563" stroke="#123563" stroke-width="1"/>
+  <text x="80.000" y="1320.000" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+        font-size="20" fill="#123563" font-weight="600">藍 / Indigo (Primary)</text>
+  <text x="80.000" y="1348.000" font-family="'Courier New',monospace"
+        font-size="18" fill="#123563" opacity="0.7">#123563</text>
+  <rect x="300.000" y="1110.000" width="180.000" height="180.000" fill="#0a2044" stroke="#123563" stroke-width="1"/>
+  <text x="300.000" y="1320.000" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+        font-size="20" fill="#123563" font-weight="600">深藍 / Indigo Deep</text>
+  <text x="300.000" y="1348.000" font-family="'Courier New',monospace"
+        font-size="18" fill="#123563" opacity="0.7">#0A2044</text>
+  <rect x="520.000" y="1110.000" width="180.000" height="180.000" fill="#1f4a86" stroke="#123563" stroke-width="1"/>
+  <text x="520.000" y="1320.000" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+        font-size="20" fill="#123563" font-weight="600">明藍 / Indigo Light</text>
+  <text x="520.000" y="1348.000" font-family="'Courier New',monospace"
+        font-size="18" fill="#123563" opacity="0.7">#1F4A86</text>
+  <rect x="740.000" y="1110.000" width="180.000" height="180.000" fill="#8b2500" stroke="#123563" stroke-width="1"/>
+  <text x="740.000" y="1320.000" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+        font-size="20" fill="#123563" font-weight="600">朱 / Vermilion (Accent)</text>
+  <text x="740.000" y="1348.000" font-family="'Courier New',monospace"
+        font-size="18" fill="#123563" opacity="0.7">#8B2500</text>
+  <rect x="960.000" y="1110.000" width="180.000" height="180.000" fill="#b23818" stroke="#123563" stroke-width="1"/>
+  <text x="960.000" y="1320.000" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+        font-size="20" fill="#123563" font-weight="600">朱明 / Vermilion Light</text>
+  <text x="960.000" y="1348.000" font-family="'Courier New',monospace"
+        font-size="18" fill="#123563" opacity="0.7">#B23818</text>
+  <rect x="1180.000" y="1110.000" width="180.000" height="180.000" fill="#f6f2e7" stroke="#123563" stroke-width="1"/>
+  <text x="1180.000" y="1320.000" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+        font-size="20" fill="#123563" font-weight="600">和紙 / Washi</text>
+  <text x="1180.000" y="1348.000" font-family="'Courier New',monospace"
+        font-size="18" fill="#123563" opacity="0.7">#F6F2E7</text>
+  
+<text x="1480" y="1050" font-family="'Noto Serif CJK SC','Noto Serif JP',serif"
+      font-size="34" fill="#123563" font-weight="700">CONCEPT｜意匠解説</text>
+<line x1="1480" y1="1070" x2="1780" y2="1070" stroke="#123563" stroke-width="2"/>
+
+<text x="1480" y="1120" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="19" fill="#123563" font-weight="700">五弁花（梅紋）</text>
+<text x="1480" y="1146" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="16" fill="#0a2044">"出藍の誉れ"─ 藍より青し。</text>
+<text x="1480" y="1168" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="16" fill="#0a2044">若き才が師を超えるという、我々の矜持。</text>
+
+<text x="1480" y="1210" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="19" fill="#123563" font-weight="700">二重円</text>
+<text x="1480" y="1236" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="16" fill="#0a2044">ウタリ（アイヌ語：同胞）。</text>
+<text x="1480" y="1258" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="16" fill="#0a2044">内と外、個と群、地方と世界を結ぶ。</text>
+
+<text x="1480" y="1300" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="19" fill="#123563" font-weight="700">花芯の朱</text>
+<text x="1480" y="1326" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="16" fill="#0a2044">革命の切っ先。若き侍の意志と熱量。</text>
+
+<text x="1480" y="1360" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="19" fill="#123563" font-weight="700">和紙の経線 × 葉の成長</text>
+<text x="1480" y="1386" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="16" fill="#0a2044">静謐な日本の伝統と、自然に根を張る成長。</text>
+
+  
+<rect x="0" y="1520" width="2400" height="80" fill="#0a2044"/>
+<text x="80" y="1570" font-family="'IPAexGothic','Noto Sans JP',sans-serif"
+      font-size="18" fill="#f6f2e7" opacity="0.85">和の魂を持った若者モダン企業 ─ 地方に革命を起こす現代のサムライ集団</text>
+<text x="2320" y="1570" text-anchor="end" font-family="'Cinzel',serif"
+      font-size="16" fill="#f6f2e7" letter-spacing="3">SAMURAI UTARI Inc. / Sapporo, Japan</text>
+
+</svg>

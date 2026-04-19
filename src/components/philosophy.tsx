@@ -20,19 +20,8 @@ export function Philosophy() {
       {/* 大きな家紋を透かし */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <div className="relative w-[80vmin] h-[80vmin] max-w-[720px] max-h-[720px] text-white opacity-[0.05]">
-          <Image src="/motifs/kamon.svg" alt="" fill className="object-contain" />
+          <Image src="/logo/sub/logo-sub.svg" alt="" fill className="object-contain" />
         </div>
-      </div>
-
-      {/* 刀：画面を横切る */}
-      <div className="absolute top-[32%] -left-8 md:-left-12 w-[60%] md:w-[45%] max-w-[620px] pointer-events-none opacity-80">
-        <Image src="/motifs/katana.svg" alt="" width={400} height={60} className="w-full h-auto" />
-      </div>
-      <div
-        className="absolute bottom-[28%] -right-8 md:-right-12 w-[60%] md:w-[45%] max-w-[620px] pointer-events-none opacity-80"
-        style={{ transform: "rotate(180deg)" }}
-      >
-        <Image src="/motifs/katana.svg" alt="" width={400} height={60} className="w-full h-auto" />
       </div>
 
       <div className="relative max-w-[980px] mx-auto">

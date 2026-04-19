@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schemas.designtokens.org/draft.json",
+  "brand": {
+    "name": "SAMURAI UTARI",
+    "version": "1.0.0",
+    "locale": "ja-JP"
+  },
+  "color": {
+    "indigo":         { "value": "#123563", "type": "color", "description": "Primary brand color (藍)" },
+    "indigo-deep":    { "value": "#0a2044", "type": "color", "description": "Deep indigo, used for shadow and core (深藍)" },
+    "indigo-light":   { "value": "#1f4a86", "type": "color", "description": "Light indigo (明藍)" },
+    "vermilion":      { "value": "#8b2500", "type": "color", "description": "Accent vermilion (朱)" },
+    "vermilion-light":{ "value": "#b23818", "type": "color", "description": "Vermilion highlight (朱明)" },
+    "washi":          { "value": "#f6f2e7", "type": "color", "description": "Paper background (和紙)" },
+    "sumi":           { "value": "#1a1a1a", "type": "color", "description": "Ink black (墨)" }
+  },
+  "typography": {
+    "fontFamily": {
+      "jp-serif": { "value": "'Noto Serif JP','Source Han Serif JP','Yu Mincho','Hiragino Mincho ProN',serif" },
+      "jp-sans":  { "value": "'Noto Sans JP','Yu Gothic','IPAexGothic',sans-serif" },
+      "en-serif": { "value": "'Cinzel','Trajan Pro','Optima','Times New Roman',serif" },
+      "en-sans":  { "value": "'Inter','Helvetica Neue',sans-serif" }
+    }
+  },
+  "logo": {
+    "primary": {
+      "file":       "/logo/primary/logo-primary.svg",
+      "file-white": "/logo/primary/logo-primary-white.svg",
+      "file-mono":  "/logo/primary/logo-primary-mono.svg",
+      "min-size-px": 16,
+      "isolation-ratio": 0.125,
+      "description": "剣梅紋リファイン版、あらゆる基本用途"
+    },
+    "secondary": {
+      "file":       "/logo/secondary/logo-secondary.svg",
+      "min-size-px": 60,
+      "description": "刀＋斬撃。式典・大判印刷・装幀パッケージ限定"
+    },
+    "sub": {
+      "file":       "/logo/sub/logo-sub.svg",
+      "min-size-px": 20,
+      "description": "縮減版梅紋、セキュリティ印・刻印・透かし"
+    }
+  },
+  "favicon": {
+    "sizes": [16, 32, 48],
+    "path": "/favicon/favicon-{size}.png"
+  }
+}

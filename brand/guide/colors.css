@@ -1,0 +1,37 @@
+/*
+ * SAMURAI UTARI Inc. — Brand Colors
+ * https://samurai-utari.com
+ *
+ * Import in your main CSS:
+ *   @import url("/brand/guide/colors.css");
+ * or copy into your :root block.
+ */
+
+:root {
+  /* Primary Palette */
+  --color-indigo:          #123563;  /* Primary */
+  --color-indigo-deep:     #0a2044;  /* Deep / shadow */
+  --color-indigo-light:    #1f4a86;  /* Light / subtle */
+
+  /* Accent Palette */
+  --color-vermilion:       #8b2500;  /* Vermilion accent */
+  --color-vermilion-light: #b23818;  /* Vermilion highlight */
+
+  /* Neutral */
+  --color-washi:           #f6f2e7;  /* Paper / base background */
+  --color-sumi:            #1a1a1a;  /* Ink black (monochrome use) */
+
+  /* Semantic */
+  --color-brand-primary:   var(--color-indigo);
+  --color-brand-accent:    var(--color-vermilion);
+  --color-brand-bg:        var(--color-washi);
+  --color-brand-text:      var(--color-indigo-deep);
+}
+
+/* Dark mode (inverted) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-brand-bg:    var(--color-indigo-deep);
+    --color-brand-text:  var(--color-washi);
+  }
+}

@@ -10,7 +10,7 @@ export function Opening() {
             {/* 家紋ロゴ */}
             <div className="relative w-[160px] h-[160px] md:w-[200px] md:h-[200px] mb-16 md:mb-20 text-[#123563]">
               <Image
-                src="/motifs/kamon.svg"
+                src="/logo/primary/logo-primary.svg"
                 alt="SAMURAI UTARI"
                 fill
                 className="object-contain"

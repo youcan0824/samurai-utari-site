@@ -20,12 +20,22 @@ const notoSerifJP = Noto_Serif_JP({
 
 export const metadata: Metadata = {
   title: "株式会社サムライウタリ | SAMURAI UTARI Inc.",
-  description: "夢なき者に理想を。地方にビジョナリーカンパニーをつくる。AI研修事業・キャリア教育事業を展開。",
+  description:
+    "夢なき者に理想を。地方に、革命を。AI研修事業・キャリア教育事業を展開する株式会社サムライウタリのコーポレートサイト。",
   openGraph: {
     title: "株式会社サムライウタリ | SAMURAI UTARI Inc.",
-    description: "夢なき者に理想を。地方にビジョナリーカンパニーをつくる。",
+    description: "夢なき者に、理想を。地方に、革命を。",
     type: "website",
   },
+  icons: {
+    icon: [
+      { url: "/favicon/favicon-32.svg", type: "image/svg+xml" },
+      { url: "/favicon/favicon-16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon/favicon-48.png", sizes: "48x48", type: "image/png" },
+    ],
+  },
+  themeColor: "#123563",
 };
 
 export default function RootLayout({

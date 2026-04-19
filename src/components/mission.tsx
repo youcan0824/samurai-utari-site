@@ -7,12 +7,14 @@ export function Mission() {
       id="mission"
       className="relative py-[160px] md:py-[220px] px-6 md:px-[60px] bg-white overflow-hidden"
     >
-      {/* 背景装飾：刀が右から左へ */}
-      <div
-        className="absolute top-[20%] -right-20 md:-right-16 w-[500px] md:w-[700px] opacity-[0.06] pointer-events-none"
-        style={{ transform: "rotate(-12deg)" }}
-      >
-        <Image src="/motifs/katana.svg" alt="" width={400} height={60} className="w-full h-auto" />
+      {/* 背景装飾：サブ家紋（梅紋）を右側に透かし */}
+      <div className="absolute top-[15%] -right-20 md:-right-16 w-[320px] md:w-[480px] aspect-square opacity-[0.06] pointer-events-none">
+        <Image
+          src="/logo/sub/logo-sub.svg"
+          alt=""
+          fill
+          className="object-contain"
+        />
       </div>
 
       <div className="relative max-w-[1100px] mx-auto">

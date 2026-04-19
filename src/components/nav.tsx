@@ -25,29 +25,41 @@ export function Nav() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 px-6 md:px-[60px] py-4 transition-all duration-300 ${
         scrolled
-          ? "bg-[#e8dfc9]/95 backdrop-blur-xl border-b border-[#1c1e2b]/[0.08]"
+          ? "bg-[#f6f2e7]/95 backdrop-blur-xl border-b border-[#0a2044]/[0.08]"
           : "bg-transparent"
       }`}
     >
       <div className="max-w-[1300px] mx-auto flex items-center justify-between">
-        <a href="#" className="flex items-center gap-3">
+        {/* ロゴ：シンボル + 社名 */}
+        <a href="#" className="flex items-center gap-3 md:gap-4">
           <Image
-            src="/logo.svg"
+            src="/logo/primary/logo-primary.svg"
             alt="SAMURAI UTARI"
-            width={180}
-            height={32}
-            className="h-8 md:h-10 w-auto [filter:brightness(0.2)]"
+            width={52}
+            height={52}
+            className="w-10 h-10 md:w-12 md:h-12"
             priority
           />
+          <div
+            className="flex flex-col leading-tight"
+            style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+          >
+            <span className="text-[11px] md:text-[13px] tracking-[0.2em] text-[#123563] font-medium">
+              株式会社サムライウタリ
+            </span>
+            <span className="text-[8px] md:text-[9px] tracking-[0.3em] uppercase text-[#8b2500]/75 mt-0.5">
+              Samurai Utari Inc.
+            </span>
+          </div>
         </a>
 
-        {/* Desktop */}
+        {/* Desktop menu */}
         <div className="hidden md:flex gap-8 lg:gap-10">
           {links.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="group flex flex-col items-center text-[#1c1e2b]/75 hover:text-[#123563] transition-colors py-1"
+              className="group flex flex-col items-center text-[#0a2044]/75 hover:text-[#123563] transition-colors py-1"
             >
               <span
                 className="text-[13px] md:text-sm tracking-[0.18em]"
@@ -55,7 +67,7 @@ export function Nav() {
               >
                 {link.jp}
               </span>
-              <span className="text-[9px] tracking-[0.2em] uppercase text-[#1c1e2b]/35 mt-0.5 group-hover:text-[#123563]/60 transition-colors">
+              <span className="text-[9px] tracking-[0.2em] uppercase text-[#0a2044]/35 mt-0.5 group-hover:text-[#123563]/60 transition-colors">
                 {link.en}
               </span>
             </a>
@@ -69,17 +81,15 @@ export function Nav() {
           aria-label="メニュー"
         >
           <span
-            className={`w-6 h-px bg-[#1c1e2b] transition-transform ${
+            className={`w-6 h-px bg-[#123563] transition-transform ${
               menuOpen ? "rotate-45 translate-y-[3.5px]" : ""
             }`}
           />
           <span
-            className={`w-6 h-px bg-[#1c1e2b] transition-opacity ${
-              menuOpen ? "opacity-0" : ""
-            }`}
+            className={`w-6 h-px bg-[#123563] transition-opacity ${menuOpen ? "opacity-0" : ""}`}
           />
           <span
-            className={`w-6 h-px bg-[#1c1e2b] transition-transform ${
+            className={`w-6 h-px bg-[#123563] transition-transform ${
               menuOpen ? "-rotate-45 -translate-y-[3.5px]" : ""
             }`}
           />
@@ -88,12 +98,12 @@ export function Nav() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden mt-4 pb-4 flex flex-col gap-5 border-t border-[#1c1e2b]/10 pt-5">
+        <div className="md:hidden mt-4 pb-4 flex flex-col gap-5 border-t border-[#0a2044]/10 pt-5">
           {links.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-[#1c1e2b]/80 text-base hover:text-[#123563] flex items-baseline gap-3"
+              className="text-[#0a2044]/80 text-base hover:text-[#123563] flex items-baseline gap-3"
               onClick={() => setMenuOpen(false)}
             >
               <span
@@ -102,7 +112,7 @@ export function Nav() {
               >
                 {link.jp}
               </span>
-              <span className="text-[10px] tracking-[0.2em] uppercase text-[#1c1e2b]/35">
+              <span className="text-[10px] tracking-[0.2em] uppercase text-[#0a2044]/35">
                 {link.en}
               </span>
             </a>
