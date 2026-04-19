@@ -2,7 +2,23 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col bg-[#e8dfc9] overflow-hidden">
+    <section className="relative min-h-screen flex flex-col items-center justify-center text-center overflow-hidden bg-[#e8dfc9]">
+      {/* テック感：うっすらグリッドライン */}
+      <div
+        className="absolute inset-0 pointer-events-none opacity-[0.25]"
+        style={{
+          backgroundImage:
+            "linear-gradient(to right, rgba(28,30,43,0.18) 1px, transparent 1px), linear-gradient(to bottom, rgba(28,30,43,0.10) 1px, transparent 1px)",
+          backgroundSize: "80px 80px",
+        }}
+      />
+
+      {/* テック感：淡い光のオーブ */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-[20%] left-[20%] w-[600px] h-[400px] bg-[radial-gradient(ellipse,rgba(74,127,200,0.08),transparent)] rounded-full" />
+        <div className="absolute bottom-[15%] right-[18%] w-[600px] h-[400px] bg-[radial-gradient(ellipse,rgba(139,37,0,0.05),transparent)] rounded-full" />
+      </div>
+
       {/* 上部の会社名 */}
       <div
         className="absolute top-24 md:top-28 left-6 md:left-[60px] z-10 text-[#1c1e2b]/70"
@@ -16,70 +32,59 @@ export function Hero() {
         </p>
       </div>
 
-      {/* 群像（夜の森の志の集会） */}
-      <div className="flex-1 flex items-end justify-center pt-32 md:pt-36 pb-24 md:pb-28 px-2 md:px-10">
-        <div className="relative w-full max-w-[1400px] h-[60vh] md:h-[70vh] flex items-end justify-center gap-1 md:gap-2">
-          {/* 木・大（左端） */}
-          <div
-            className="relative h-[52%] md:h-[56%] aspect-[120/220] shrink-0 hero-sway"
-            style={{ animationDelay: "0s, 0.05s" }}
-          >
-            <Image src="/motifs/tree.svg" alt="" fill className="object-contain object-bottom" priority />
-          </div>
+      {/* 刀：左（斜め上向き） */}
+      <div
+        className="absolute left-0 top-1/2 -translate-y-1/2 w-[45vw] md:w-[42vw] max-w-[600px] hero-katana-left pointer-events-none"
+        style={{ transform: "translateY(-50%) rotate(-18deg) translateX(-18%)" }}
+      >
+        <Image
+          src="/motifs/katana.svg"
+          alt=""
+          width={400}
+          height={60}
+          className="w-full h-auto"
+          priority
+        />
+      </div>
 
-          {/* ウタリ1（中・左） */}
-          <div
-            className="relative h-[42%] md:h-[44%] aspect-[160/340] shrink-0 hero-sway-mini"
-            style={{ animationDelay: "0.15s, 0.15s" }}
-          >
-            <Image src="/motifs/utari.svg" alt="" fill className="object-contain object-bottom" priority />
-          </div>
+      {/* 刀：右（斜め下向き） */}
+      <div
+        className="absolute right-0 top-1/2 -translate-y-1/2 w-[45vw] md:w-[42vw] max-w-[600px] hero-katana-right pointer-events-none"
+        style={{ transform: "translateY(-50%) rotate(162deg) translateX(-18%)" }}
+      >
+        <Image
+          src="/motifs/katana.svg"
+          alt=""
+          width={400}
+          height={60}
+          className="w-full h-auto"
+          priority
+        />
+      </div>
 
-          {/* 焚き火（中央・主役） */}
-          <div
-            className="relative h-[38%] md:h-[42%] aspect-[140/240] shrink-0 self-end mb-1 hero-fire"
-            style={{ animationDelay: "0.3s, 0.25s" }}
-          >
-            <Image src="/motifs/fire.svg" alt="" fill className="object-contain object-bottom" priority />
-          </div>
-
-          {/* ウタリ2（中・右） */}
-          <div
-            className="relative h-[44%] md:h-[46%] aspect-[160/340] shrink-0 hero-sway-mini"
-            style={{ animationDelay: "0.45s, 0.35s" }}
-          >
-            <Image src="/motifs/utari.svg" alt="" fill className="object-contain object-bottom" priority />
-          </div>
-
-          {/* ウタリ3（小・右） */}
-          <div
-            className="relative h-[38%] md:h-[40%] aspect-[160/340] shrink-0 hero-sway-mini-delay"
-            style={{ animationDelay: "0.6s, 0.45s" }}
-          >
-            <Image src="/motifs/utari.svg" alt="" fill className="object-contain object-bottom" priority />
-          </div>
-
-          {/* サムライ（最大・リーダー） */}
-          <div
-            className="relative h-[70%] md:h-[74%] aspect-[160/340] shrink-0 hero-sway-slow"
-            style={{ animationDelay: "0.75s, 0.55s" }}
-          >
-            <Image src="/motifs/samurai.svg" alt="" fill className="object-contain object-bottom" priority />
-          </div>
-
-          {/* 木・小（右端） */}
-          <div
-            className="relative h-[45%] md:h-[48%] aspect-[120/220] shrink-0 hero-sway hidden md:block"
-            style={{ animationDelay: "0.9s, 0.65s" }}
-          >
-            <Image src="/motifs/tree.svg" alt="" fill className="object-contain object-bottom" priority />
-          </div>
-        </div>
+      {/* Content：タイポグラフィ主役 */}
+      <div
+        className="relative z-10 px-6"
+        style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+      >
+        <p className="text-[10px] md:text-[11px] tracking-[0.5em] uppercase text-[#1c1e2b]/40 mb-10 hero-fade-1">
+          Philosophy
+        </p>
+        <h1 className="text-5xl md:text-[104px] font-normal tracking-[0.15em] md:tracking-[0.22em] text-[#1c1e2b] leading-[1.45] hero-fade-2">
+          夢なき者に、
+          <br />
+          <span className="text-[#8b2500]">理想を。</span>
+        </h1>
+        <p className="mt-12 md:mt-16 text-sm md:text-lg tracking-[0.3em] text-[#1c1e2b]/65 hero-fade-3">
+          地方に、
+          <span className="text-[#8b2500] mx-1">革命</span>
+          を。
+        </p>
       </div>
 
       {/* 下部スクロールインジケータ */}
       <div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-[10px] tracking-[0.3em] text-[#1c1e2b]/40 text-center"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-[10px] tracking-[0.3em] text-[#1c1e2b]/40 text-center hero-fade-4"
         style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
       >
         <span>スクロール</span>
@@ -91,32 +96,28 @@ export function Hero() {
           0% { opacity: 0; transform: translateY(20px); }
           100% { opacity: 1; transform: translateY(0); }
         }
-        @keyframes hero-sway {
-          0%, 100% { transform: translateY(0) rotate(0deg); }
-          50% { transform: translateY(-6px) rotate(0.5deg); }
+        @keyframes katana-slash-left {
+          0% { opacity: 0; transform: translateY(-50%) rotate(-18deg) translateX(-120%); }
+          100% { opacity: 1; transform: translateY(-50%) rotate(-18deg) translateX(-18%); }
         }
-        @keyframes hero-sway-slow {
-          0%, 100% { transform: translateY(0) rotate(0deg); }
-          50% { transform: translateY(-5px) rotate(-0.3deg); }
+        @keyframes katana-slash-right {
+          0% { opacity: 0; transform: translateY(-50%) rotate(162deg) translateX(-120%); }
+          100% { opacity: 1; transform: translateY(-50%) rotate(162deg) translateX(-18%); }
         }
-        @keyframes hero-sway-mini {
-          0%, 100% { transform: translateY(0) rotate(0deg); }
-          50% { transform: translateY(-4px) rotate(0.4deg); }
+        @keyframes katana-shine {
+          0%, 100% { filter: drop-shadow(0 0 0 rgba(74,127,200,0)); }
+          50% { filter: drop-shadow(0 0 14px rgba(74,127,200,0.45)); }
         }
-        @keyframes hero-sway-mini-delay {
-          0%, 100% { transform: translateY(0) rotate(0deg); }
-          50% { transform: translateY(-3px) rotate(-0.4deg); }
+        .hero-katana-left {
+          animation: katana-slash-left 1.4s ease-out 0.1s both, katana-shine 4s ease-in-out 2s infinite;
         }
-        @keyframes hero-fire {
-          0%, 100% { transform: translateY(0) scaleY(1); }
-          33% { transform: translateY(-3px) scaleY(1.05); }
-          66% { transform: translateY(-1px) scaleY(0.97); }
+        .hero-katana-right {
+          animation: katana-slash-right 1.4s ease-out 0.25s both, katana-shine 4s ease-in-out 2.5s infinite;
         }
-        .hero-sway { animation: hero-fade-in 1s ease-out both, hero-sway 5s ease-in-out infinite; }
-        .hero-sway-slow { animation: hero-fade-in 1s ease-out both, hero-sway-slow 6.5s ease-in-out infinite; }
-        .hero-sway-mini { animation: hero-fade-in 1s ease-out both, hero-sway-mini 5.5s ease-in-out infinite; }
-        .hero-sway-mini-delay { animation: hero-fade-in 1s ease-out both, hero-sway-mini-delay 6s ease-in-out infinite; }
-        .hero-fire { animation: hero-fade-in 1s ease-out both, hero-fire 1.6s ease-in-out infinite; transform-origin: bottom center; }
+        .hero-fade-1 { animation: hero-fade-in 1s ease-out 0.8s both; opacity: 0; }
+        .hero-fade-2 { animation: hero-fade-in 1.2s ease-out 1s both; opacity: 0; }
+        .hero-fade-3 { animation: hero-fade-in 1s ease-out 1.5s both; opacity: 0; }
+        .hero-fade-4 { animation: hero-fade-in 1s ease-out 2s both; opacity: 0; }
       `}</style>
     </section>
   );

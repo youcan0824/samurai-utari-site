@@ -19,49 +19,84 @@ const services = [
 
 export function Service() {
   return (
-    <section id="service" className="py-[160px] md:py-[220px] px-6 md:px-[60px] bg-white">
-      <ScrollFadeIn>
-        <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-12 md:mb-16 max-w-[1100px] mx-auto">
-          <span
-            className="text-[#123563] font-medium"
+    <section
+      id="service"
+      className="relative py-[160px] md:py-[220px] px-6 md:px-[60px] bg-[#0d1117] overflow-hidden"
+    >
+      {/* テック感：グリッドライン */}
+      <div
+        className="absolute inset-0 pointer-events-none opacity-[0.25]"
+        style={{
+          backgroundImage:
+            "linear-gradient(to right, rgba(74,127,200,0.15) 1px, transparent 1px), linear-gradient(to bottom, rgba(74,127,200,0.08) 1px, transparent 1px)",
+          backgroundSize: "80px 80px",
+        }}
+      />
+      {/* 淡いオーブ */}
+      <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute top-[20%] left-[15%] w-[500px] h-[400px] bg-[radial-gradient(ellipse,rgba(74,127,200,0.15),transparent)] rounded-full" />
+        <div className="absolute bottom-[15%] right-[15%] w-[500px] h-[400px] bg-[radial-gradient(ellipse,rgba(18,53,99,0.25),transparent)] rounded-full" />
+      </div>
+
+      <div className="relative max-w-[1100px] mx-auto">
+        <ScrollFadeIn>
+          <p className="text-[13px] tracking-[0.4em] text-white/45 mb-12 md:mb-16">
+            <span
+              className="text-white/90 font-medium"
+              style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+            >
+              事業
+            </span>
+            <span className="text-[10px] ml-3 uppercase text-white/35">/ Service</span>
+          </p>
+        </ScrollFadeIn>
+
+        <ScrollFadeIn>
+          <h2
+            className="text-2xl md:text-[34px] font-normal leading-[1.7] mb-16 md:mb-20 text-white tracking-[0.05em] max-w-[820px]"
             style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
           >
-            事業
-          </span>
-          <span className="text-[10px] ml-3 uppercase text-[#1c1e2b]/30">/ Service</span>
-        </p>
-      </ScrollFadeIn>
-      <div className="grid md:grid-cols-2 gap-8 max-w-[1100px] mx-auto">
-        {services.map((svc, i) => (
-          <ScrollFadeIn key={i}>
-            <div className="group relative p-10 md:p-12 bg-[#f7f7f7] border border-[#1c1e2b]/[0.08] overflow-hidden transition-all duration-300 hover:border-[#4a7fc8]/50 hover:-translate-y-1">
-              <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#123563] to-[#4a7fc8] opacity-0 group-hover:opacity-100 transition-opacity" />
-              <span className="inline-block px-3 py-1 text-[10px] tracking-[0.15em] uppercase border border-[#1c1e2b]/20 text-[#1c1e2b]/70 mb-6">
-                {svc.tag}
-              </span>
-              <h3
-                className="text-2xl md:text-[26px] font-medium mb-5 text-[#123563]"
-                style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
-              >
-                {svc.name}
-                {svc.comingSoon && (
-                  <span
-                    className="ml-3 px-2.5 py-0.5 text-[10px] bg-[#4a7fc8]/15 text-[#4a7fc8] rounded-sm tracking-[0.08em] align-middle"
-                    style={{ fontFamily: '"Inter", sans-serif' }}
-                  >
-                    Coming Soon
-                  </span>
-                )}
-              </h3>
-              <p
-                className="text-[14px] md:text-[15px] text-[#1c1e2b]/70 leading-[2]"
-                style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
-              >
-                {svc.description}
-              </p>
-            </div>
-          </ScrollFadeIn>
-        ))}
+            地方に、テクノロジーと
+            <br />
+            <span className="text-[#4a7fc8]">新しいキャリア</span>を。
+          </h2>
+        </ScrollFadeIn>
+
+        <div className="grid md:grid-cols-2 gap-8">
+          {services.map((svc, i) => (
+            <ScrollFadeIn key={i}>
+              <div className="group relative p-10 md:p-12 bg-white/[0.03] border border-white/[0.12] backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-[#4a7fc8]/60 hover:-translate-y-1 hover:shadow-[0_0_40px_rgba(74,127,200,0.18)]">
+                <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#123563] to-[#4a7fc8] opacity-0 group-hover:opacity-100 transition-opacity" />
+                <span
+                  className="inline-block px-3 py-1 text-[10px] tracking-[0.15em] uppercase border border-[#4a7fc8]/40 text-[#4a7fc8] mb-6"
+                  style={{ fontFamily: '"Inter", sans-serif' }}
+                >
+                  {svc.tag}
+                </span>
+                <h3
+                  className="text-2xl md:text-[28px] font-medium mb-5 text-white"
+                  style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+                >
+                  {svc.name}
+                  {svc.comingSoon && (
+                    <span
+                      className="ml-3 px-2.5 py-0.5 text-[10px] bg-[#4a7fc8]/20 text-[#4a7fc8] rounded-sm tracking-[0.08em] align-middle border border-[#4a7fc8]/30"
+                      style={{ fontFamily: '"Inter", sans-serif' }}
+                    >
+                      Coming Soon
+                    </span>
+                  )}
+                </h3>
+                <p
+                  className="text-[14px] md:text-[15px] text-white/75 leading-[2]"
+                  style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+                >
+                  {svc.description}
+                </p>
+              </div>
+            </ScrollFadeIn>
+          ))}
+        </div>
       </div>
     </section>
   );
