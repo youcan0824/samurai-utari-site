@@ -22,7 +22,7 @@ function CountUp({ target, suffix = "" }: { target: number; suffix?: string }) {
   }, [inView, target]);
 
   return (
-    <span ref={ref} className="text-5xl md:text-[48px] font-extralight tracking-[0.05em] bg-gradient-to-br from-white to-[#6ea8dc] bg-clip-text text-transparent">
+    <span ref={ref} className="text-5xl md:text-[48px] font-extralight tracking-[0.05em] bg-gradient-to-br from-white to-[#4a7fc8] bg-clip-text text-transparent">
       {count}{suffix}
     </span>
   );

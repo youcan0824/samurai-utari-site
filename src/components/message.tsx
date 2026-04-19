@@ -4,8 +4,9 @@ export function Message() {
   return (
     <section className="py-[120px] px-6 md:px-[60px] bg-[#0d1117]">
       <ScrollFadeIn>
-        <p className="text-[11px] tracking-[0.3em] uppercase text-white/30 mb-10 max-w-[900px] mx-auto">
-          Message
+        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[900px] mx-auto">
+          <span className="text-white/70">代表の言葉</span>
+          <span className="text-[10px] ml-3 uppercase text-white/25">/ Message</span>
         </p>
       </ScrollFadeIn>
 

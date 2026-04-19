@@ -51,7 +51,10 @@ export function Team() {
   return (
     <section id="team" className="py-[120px] px-6 md:px-[60px] bg-[#0d1117]">
       <ScrollFadeIn>
-        <p className="text-[11px] tracking-[0.3em] uppercase text-white/30 mb-10 max-w-[1100px] mx-auto">Team</p>
+        <p className="text-[13px] tracking-[0.3em] text-white/40 mb-10 max-w-[1100px] mx-auto">
+          <span className="text-white/70">仲間</span>
+          <span className="text-[10px] ml-3 uppercase text-white/25">/ Team</span>
+        </p>
       </ScrollFadeIn>
       <div className="grid md:grid-cols-3 gap-10 max-w-[1100px] mx-auto">
         {members.map((m, i) => (
@@ -60,7 +63,7 @@ export function Team() {
               <PhotoOrInitial photo={m.photo} initial={m.initial} name={m.name} />
               <h3 className="text-lg font-semibold mb-1">{m.name}</h3>
               <p className="text-[11px] text-white/40 tracking-[0.1em] uppercase mb-4">{m.role}</p>
-              <p className="text-[13px] text-[#6ea8dc] italic mb-3">{m.motto}</p>
+              <p className="text-[13px] text-[#4a7fc8] italic mb-3">{m.motto}</p>
               <p className="text-[13px] text-white/50 leading-[1.8] max-w-[300px] mx-auto">{m.bio}</p>
             </div>
           </ScrollFadeIn>

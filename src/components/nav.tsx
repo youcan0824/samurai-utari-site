@@ -14,10 +14,10 @@ export function Nav() {
   }, []);
 
   const links = [
-    { href: "#about", label: "About" },
-    { href: "#service", label: "Service" },
-    { href: "#team", label: "Team" },
-    { href: "#contact", label: "Contact" },
+    { href: "#about", jp: "会社", en: "About" },
+    { href: "#service", jp: "事業", en: "Service" },
+    { href: "#team", jp: "仲間", en: "Team" },
+    { href: "#contact", jp: "連絡", en: "Contact" },
   ];
 
   return (
@@ -39,9 +39,12 @@ export function Nav() {
             <a
               key={link.href}
               href={link.href}
-              className="text-white/60 text-xs tracking-[0.1em] uppercase hover:text-white transition-colors"
+              className="group flex flex-col items-center text-white/60 hover:text-white transition-colors"
             >
-              {link.label}
+              <span className="text-sm tracking-[0.15em]">{link.jp}</span>
+              <span className="text-[9px] tracking-[0.2em] uppercase text-white/30 mt-0.5 group-hover:text-white/60 transition-colors">
+                {link.en}
+              </span>
             </a>
           ))}
         </div>
@@ -65,10 +68,11 @@ export function Nav() {
             <a
               key={link.href}
               href={link.href}
-              className="text-white/60 text-sm tracking-[0.1em] uppercase hover:text-white"
+              className="text-white/60 text-sm hover:text-white flex items-baseline gap-3"
               onClick={() => setMenuOpen(false)}
             >
-              {link.label}
+              <span className="tracking-[0.15em]">{link.jp}</span>
+              <span className="text-[10px] tracking-[0.2em] uppercase text-white/30">{link.en}</span>
             </a>
           ))}
         </div>
