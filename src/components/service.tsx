@@ -19,9 +19,9 @@ const services = [
 
 export function Service() {
   return (
-    <section id="service" className="py-[160px] md:py-[200px] px-6 md:px-[60px] bg-[#faf8f3]">
+    <section id="service" className="py-[160px] md:py-[220px] px-6 md:px-[60px] bg-white">
       <ScrollFadeIn>
-        <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-12 md:mb-16 max-w-[980px] mx-auto">
+        <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-12 md:mb-16 max-w-[1100px] mx-auto">
           <span
             className="text-[#123563] font-medium"
             style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
@@ -31,10 +31,10 @@ export function Service() {
           <span className="text-[10px] ml-3 uppercase text-[#1c1e2b]/30">/ Service</span>
         </p>
       </ScrollFadeIn>
-      <div className="grid md:grid-cols-2 gap-8 max-w-[980px] mx-auto">
+      <div className="grid md:grid-cols-2 gap-8 max-w-[1100px] mx-auto">
         {services.map((svc, i) => (
           <ScrollFadeIn key={i}>
-            <div className="group relative p-10 md:p-12 bg-white border border-[#1c1e2b]/[0.08] overflow-hidden transition-all duration-300 hover:border-[#4a7fc8]/50 hover:-translate-y-1">
+            <div className="group relative p-10 md:p-12 bg-[#f7f7f7] border border-[#1c1e2b]/[0.08] overflow-hidden transition-all duration-300 hover:border-[#4a7fc8]/50 hover:-translate-y-1">
               <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#123563] to-[#4a7fc8] opacity-0 group-hover:opacity-100 transition-opacity" />
               <span className="inline-block px-3 py-1 text-[10px] tracking-[0.15em] uppercase border border-[#1c1e2b]/20 text-[#1c1e2b]/70 mb-6">
                 {svc.tag}

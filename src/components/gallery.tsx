@@ -14,7 +14,7 @@ const photos = [
 
 export function Gallery() {
   return (
-    <section className="py-[160px] md:py-[200px] px-6 md:px-[60px] bg-[#faf8f3]">
+    <section className="py-[160px] md:py-[220px] px-6 md:px-[60px] bg-white">
       <ScrollFadeIn>
         <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-6 md:mb-8 max-w-[980px] mx-auto">
           <span

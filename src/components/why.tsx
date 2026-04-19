@@ -40,10 +40,7 @@ function CountUp({ target, suffix = "" }: { target: number; suffix?: string }) {
 
 export function Why() {
   return (
-    <section
-      id="why"
-      className="py-[160px] md:py-[220px] px-6 md:px-[60px] bg-[#faf8f3]"
-    >
+    <section id="why" className="py-[160px] md:py-[220px] px-6 md:px-[60px] bg-white">
       <div className="max-w-[1100px] mx-auto">
         <ScrollFadeIn>
           <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-12 md:mb-16">
@@ -57,7 +54,6 @@ export function Why() {
           </p>
         </ScrollFadeIn>
 
-        {/* Why 01: 格差の現実 */}
         <div className="grid md:grid-cols-2 gap-12 md:gap-20 mb-24 md:mb-32">
           <ScrollFadeIn>
             <p
@@ -88,7 +84,6 @@ export function Why() {
           </ScrollFadeIn>
         </div>
 
-        {/* データブロック */}
         <ScrollFadeIn>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-8 py-16 md:py-20 border-y border-[#1c1e2b]/10 text-center mb-24 md:mb-32">
             {[
@@ -116,7 +111,6 @@ export function Why() {
           </div>
         </ScrollFadeIn>
 
-        {/* Why 02: 構造的な空白 */}
         <div className="grid md:grid-cols-2 gap-12 md:gap-20">
           <ScrollFadeIn>
             <p

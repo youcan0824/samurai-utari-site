@@ -23,10 +23,7 @@ const pillars = [
 
 export function How() {
   return (
-    <section
-      id="how"
-      className="py-[160px] md:py-[220px] px-6 md:px-[60px] bg-white"
-    >
+    <section id="how" className="py-[160px] md:py-[220px] px-6 md:px-[60px] bg-[#faf8f3]">
       <div className="max-w-[1100px] mx-auto">
         <ScrollFadeIn>
           <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-12 md:mb-16">

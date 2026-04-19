@@ -72,7 +72,7 @@ function PhotoOrInitial({
 
 export function Team() {
   return (
-    <section id="team" className="py-[160px] md:py-[200px] px-6 md:px-[60px] bg-white">
+    <section id="team" className="py-[160px] md:py-[220px] px-6 md:px-[60px] bg-[#faf8f3]">
       <ScrollFadeIn>
         <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-12 md:mb-16 max-w-[980px] mx-auto">
           <span

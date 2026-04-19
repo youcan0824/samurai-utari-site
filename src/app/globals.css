@@ -5,17 +5,17 @@
 }
 
 :root {
-  /* ライトテーマ（中川政七商店ベンチマーク）*/
-  --bg-primary: #faf8f3;      /* 生成り */
-  --bg-white: #ffffff;         /* 純白（セクション交互用）*/
-  --bg-washi: #f5efe0;         /* 和紙色 */
-  --bg-navy: #123563;          /* 濃紺（強調セクション用）*/
-  --accent: #4a7fc8;           /* ブリリアントブルー */
-  --accent-deep: #123563;      /* ダークネイビー */
-  --accent-vermilion: #8b2500; /* 朱 */
+  /* 白/生成り/ブラウン基調 + 青 */
+  --bg-primary: #faf8f3;       /* 生成り（メイン） */
+  --bg-white: #ffffff;          /* 白（交互セクション） */
+  --bg-washi: #f5efe0;          /* 和紙色（カード） */
+  --bg-kraft: #e8dfc9;          /* クラフトブラウン（Hero） */
+  --bg-navy: #123563;           /* 濃紺（強調セクション） */
+  --accent: #4a7fc8;            /* ブリリアントブルー */
+  --accent-deep: #123563;
+  --accent-vermilion: #8b2500;  /* 朱 */
 
-  /* テキスト */
-  --text-primary: #1c1e2b;     /* 濃紺ベース */
+  --text-primary: #1c1e2b;
   --text-secondary: rgba(28, 30, 43, 0.72);
   --text-muted: rgba(28, 30, 43, 0.5);
   --text-subtle: rgba(28, 30, 43, 0.35);

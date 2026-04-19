@@ -3,12 +3,12 @@ import { ScrollFadeIn } from "./scroll-fade-in";
 
 export function Opening() {
   return (
-    <section className="py-[160px] md:py-[220px] px-6 md:px-[60px] bg-[#e8dfc9]">
+    <section className="py-[160px] md:py-[220px] px-6 md:px-[60px] bg-[#faf8f3]">
       <div className="max-w-[1100px] mx-auto">
         <ScrollFadeIn>
           <div className="flex flex-col items-center">
             {/* 家紋ロゴ */}
-            <div className="relative w-[160px] h-[160px] md:w-[200px] md:h-[200px] mb-16 md:mb-20 text-[#1c1e2b]">
+            <div className="relative w-[160px] h-[160px] md:w-[200px] md:h-[200px] mb-16 md:mb-20 text-[#123563]">
               <Image
                 src="/motifs/kamon.svg"
                 alt="SAMURAI UTARI"
@@ -25,7 +25,7 @@ export function Opening() {
               <p className="text-[11px] md:text-[13px] tracking-[0.5em] text-[#1c1e2b]/50 uppercase mb-4">
                 Samurai Utari Inc.
               </p>
-              <p className="text-xl md:text-2xl tracking-[0.3em] text-[#1c1e2b]/90">
+              <p className="text-xl md:text-2xl tracking-[0.3em] text-[#123563]">
                 株式会社サムライウタリ
               </p>
             </div>
