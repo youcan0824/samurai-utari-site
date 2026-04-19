@@ -1,0 +1,89 @@
+import { ScrollFadeIn } from "./scroll-fade-in";
+
+const pillars = [
+  {
+    num: "01",
+    kanji: "人づくり",
+    en: "People",
+    text: "地方の大学生一人ひとりのポテンシャルを最大限に引き出す。キャリアの入口を届け、挑戦を後押しする。",
+  },
+  {
+    num: "02",
+    kanji: "場づくり",
+    en: "Place",
+    text: "同じ志を持つ同胞（ウタリ）が集う拠点をつくる。オンラインとリアルの両面で、挑戦が生まれる環境を用意する。",
+  },
+  {
+    num: "03",
+    kanji: "事業づくり",
+    en: "Business",
+    text: "調査・設計・実行を一気通貫で担う新規事業開発。地方発のビジネスモデルを、地方から都市へと送り出す。",
+  },
+];
+
+export function How() {
+  return (
+    <section
+      id="how"
+      className="py-[160px] md:py-[220px] px-6 md:px-[60px] bg-white"
+    >
+      <div className="max-w-[1100px] mx-auto">
+        <ScrollFadeIn>
+          <p className="text-[13px] tracking-[0.4em] text-[#1c1e2b]/45 mb-12 md:mb-16">
+            <span
+              className="text-[#123563] font-medium"
+              style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+            >
+              どのように
+            </span>
+            <span className="text-[10px] ml-3 uppercase text-[#1c1e2b]/30">/ How</span>
+          </p>
+        </ScrollFadeIn>
+
+        <ScrollFadeIn>
+          <h2
+            className="text-2xl md:text-[34px] font-normal leading-[1.7] mb-20 md:mb-28 text-[#123563] tracking-[0.05em] max-w-[820px]"
+            style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+          >
+            「人づくり・場づくり・事業づくり」
+            <br />
+            の三軸で、格差に向き合う。
+          </h2>
+        </ScrollFadeIn>
+
+        <div className="grid md:grid-cols-3 gap-10 md:gap-12">
+          {pillars.map((p, i) => (
+            <ScrollFadeIn key={i}>
+              <div className="border-t border-[#1c1e2b]/15 pt-8">
+                <p
+                  className="text-xs tracking-[0.3em] text-[#4a7fc8] mb-6"
+                  style={{ fontFamily: '"Inter", sans-serif' }}
+                >
+                  {p.num}
+                </p>
+                <h3
+                  className="text-2xl md:text-[28px] font-medium mb-2 text-[#123563] tracking-[0.1em]"
+                  style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+                >
+                  {p.kanji}
+                </h3>
+                <p
+                  className="text-[11px] tracking-[0.25em] uppercase text-[#1c1e2b]/40 mb-8"
+                  style={{ fontFamily: '"Inter", sans-serif' }}
+                >
+                  {p.en}
+                </p>
+                <p
+                  className="text-[14px] text-[#1c1e2b]/75 leading-[2.1]"
+                  style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+                >
+                  {p.text}
+                </p>
+              </div>
+            </ScrollFadeIn>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

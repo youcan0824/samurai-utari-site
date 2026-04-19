@@ -14,7 +14,9 @@ export function Nav() {
   }, []);
 
   const links = [
-    { href: "#about", jp: "会社", en: "About" },
+    { href: "#vision", jp: "理念", en: "Vision" },
+    { href: "#why", jp: "なぜ", en: "Why" },
+    { href: "#how", jp: "どのように", en: "How" },
     { href: "#service", jp: "事業", en: "Service" },
     { href: "#team", jp: "UTARI", en: "Team" },
     { href: "#contact", jp: "連絡", en: "Contact" },
@@ -22,32 +24,38 @@ export function Nav() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 px-6 md:px-[60px] py-5 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 px-6 md:px-[60px] py-4 transition-all duration-300 ${
         scrolled
-          ? "bg-[#faf8f3]/90 backdrop-blur-xl border-b border-[#1c1e2b]/[0.08]"
+          ? "bg-[#faf8f3]/95 backdrop-blur-xl border-b border-[#1c1e2b]/[0.08]"
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-[1200px] mx-auto flex items-center justify-between">
+      <div className="max-w-[1300px] mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
           <Image
             src="/logo.svg"
             alt="SAMURAI UTARI"
-            width={120}
-            height={20}
-            className="[filter:brightness(0.2)]"
+            width={180}
+            height={32}
+            className="h-8 md:h-10 w-auto [filter:brightness(0.2)]"
+            priority
           />
         </a>
 
         {/* Desktop */}
-        <div className="hidden md:flex gap-10">
+        <div className="hidden md:flex gap-8 lg:gap-10">
           {links.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="group flex flex-col items-center text-[#1c1e2b]/70 hover:text-[#123563] transition-colors"
+              className="group flex flex-col items-center text-[#1c1e2b]/75 hover:text-[#123563] transition-colors py-1"
             >
-              <span className="text-sm tracking-[0.15em]">{link.jp}</span>
+              <span
+                className="text-[13px] md:text-sm tracking-[0.18em]"
+                style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+              >
+                {link.jp}
+              </span>
               <span className="text-[9px] tracking-[0.2em] uppercase text-[#1c1e2b]/35 mt-0.5 group-hover:text-[#123563]/60 transition-colors">
                 {link.en}
               </span>
@@ -62,17 +70,17 @@ export function Nav() {
           aria-label="メニュー"
         >
           <span
-            className={`w-5 h-px bg-[#1c1e2b] transition-transform ${
+            className={`w-6 h-px bg-[#1c1e2b] transition-transform ${
               menuOpen ? "rotate-45 translate-y-[3.5px]" : ""
             }`}
           />
           <span
-            className={`w-5 h-px bg-[#1c1e2b] transition-opacity ${
+            className={`w-6 h-px bg-[#1c1e2b] transition-opacity ${
               menuOpen ? "opacity-0" : ""
             }`}
           />
           <span
-            className={`w-5 h-px bg-[#1c1e2b] transition-transform ${
+            className={`w-6 h-px bg-[#1c1e2b] transition-transform ${
               menuOpen ? "-rotate-45 -translate-y-[3.5px]" : ""
             }`}
           />
@@ -81,15 +89,20 @@ export function Nav() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="md:hidden mt-4 pb-4 flex flex-col gap-4 border-t border-[#1c1e2b]/10 pt-4">
+        <div className="md:hidden mt-4 pb-4 flex flex-col gap-5 border-t border-[#1c1e2b]/10 pt-5">
           {links.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-[#1c1e2b]/70 text-sm hover:text-[#123563] flex items-baseline gap-3"
+              className="text-[#1c1e2b]/80 text-base hover:text-[#123563] flex items-baseline gap-3"
               onClick={() => setMenuOpen(false)}
             >
-              <span className="tracking-[0.15em]">{link.jp}</span>
+              <span
+                className="tracking-[0.15em]"
+                style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+              >
+                {link.jp}
+              </span>
               <span className="text-[10px] tracking-[0.2em] uppercase text-[#1c1e2b]/35">
                 {link.en}
               </span>
