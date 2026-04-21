@@ -74,21 +74,21 @@ export function Service() {
             <ScrollFadeIn key={i} className="h-full">
               <div className="group relative h-full flex flex-col p-10 md:p-12 bg-white/[0.03] border border-white/[0.12] backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-[#4a7fc8]/60 hover:-translate-y-1 hover:shadow-[0_0_40px_rgba(74,127,200,0.18)]">
                 <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#123563] to-[#4a7fc8] opacity-0 group-hover:opacity-100 transition-opacity" />
-                <div className="flex items-center gap-2 mb-6 flex-wrap">
+                {svc.comingSoon && (
+                  <span
+                    className="absolute top-10 right-10 md:top-12 md:right-12 inline-block px-2.5 py-1 text-[10px] bg-[#4a7fc8]/20 text-[#4a7fc8] rounded-sm tracking-[0.08em] border border-[#4a7fc8]/30 whitespace-nowrap z-10"
+                    style={{ fontFamily: '"Inter", sans-serif' }}
+                  >
+                    Coming Soon
+                  </span>
+                )}
+                <div className={`mb-6 ${svc.comingSoon ? 'pr-28' : ''}`}>
                   <span
                     className="inline-block px-3 py-1 text-[10px] tracking-[0.15em] uppercase border border-[#4a7fc8]/40 text-[#4a7fc8] whitespace-nowrap"
                     style={{ fontFamily: '"Inter", sans-serif' }}
                   >
                     {svc.tag}
                   </span>
-                  {svc.comingSoon && (
-                    <span
-                      className="inline-block px-2.5 py-1 text-[10px] bg-[#4a7fc8]/20 text-[#4a7fc8] rounded-sm tracking-[0.08em] border border-[#4a7fc8]/30 whitespace-nowrap"
-                      style={{ fontFamily: '"Inter", sans-serif' }}
-                    >
-                      Coming Soon
-                    </span>
-                  )}
                 </div>
                 <h3
                   className="text-2xl md:text-[28px] font-medium mb-5 text-white"
