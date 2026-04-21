@@ -89,14 +89,17 @@ export function Service() {
                   >
                     {svc.name}
                   </h3>
-                  {svc.comingSoon && (
-                    <span
-                      className="inline-block px-2.5 py-1 text-[10px] bg-[#4a7fc8]/20 text-[#4a7fc8] rounded-sm tracking-[0.08em] border border-[#4a7fc8]/30 whitespace-nowrap"
-                      style={{ fontFamily: '"Inter", sans-serif' }}
-                    >
-                      Coming Soon
-                    </span>
-                  )}
+                  {/* 常にプレースホルダーを配置。Coming Soonが無いカードはvisibility:hiddenで同じスペースを確保 → 全カードで本文のY位置が完全整列する */}
+                  <span
+                    className="inline-block px-2.5 py-1 text-[10px] bg-[#4a7fc8]/20 text-[#4a7fc8] rounded-sm tracking-[0.08em] border border-[#4a7fc8]/30 whitespace-nowrap"
+                    style={{
+                      visibility: svc.comingSoon ? 'visible' : 'hidden',
+                      fontFamily: '"Inter", sans-serif',
+                    }}
+                    aria-hidden={!svc.comingSoon}
+                  >
+                    Coming Soon
+                  </span>
                 </div>
                 <p
                   className="text-[14px] md:text-[15px] text-white/75 leading-[2]"
