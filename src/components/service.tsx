@@ -19,7 +19,7 @@ const services = [
     tag: "AI × Facilitation",
     name: "CATALYST",
     description:
-      "地方中堅企業のための触媒型コンサルティング。経営変革をAI×ファシリテーションで伴走し、自走する会社を残して去る——それがゴールです。",
+      "地方中堅企業のための触媒型コンサルティング。AI×ファシリで経営変革を伴走し、自走する会社を残して去る。",
     comingSoon: true,
   },
 ];
@@ -71,28 +71,30 @@ export function Service() {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((svc, i) => (
-            <ScrollFadeIn key={i}>
-              <div className="group relative p-10 md:p-12 bg-white/[0.03] border border-white/[0.12] backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-[#4a7fc8]/60 hover:-translate-y-1 hover:shadow-[0_0_40px_rgba(74,127,200,0.18)]">
+            <ScrollFadeIn key={i} className="h-full">
+              <div className="group relative h-full flex flex-col p-10 md:p-12 bg-white/[0.03] border border-white/[0.12] backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-[#4a7fc8]/60 hover:-translate-y-1 hover:shadow-[0_0_40px_rgba(74,127,200,0.18)]">
                 <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-[#123563] to-[#4a7fc8] opacity-0 group-hover:opacity-100 transition-opacity" />
-                <span
-                  className="inline-block px-3 py-1 text-[10px] tracking-[0.15em] uppercase border border-[#4a7fc8]/40 text-[#4a7fc8] mb-6"
-                  style={{ fontFamily: '"Inter", sans-serif' }}
-                >
-                  {svc.tag}
-                </span>
-                <h3
-                  className="text-2xl md:text-[28px] font-medium mb-5 text-white"
-                  style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
-                >
-                  {svc.name}
+                <div className="flex items-center gap-2 mb-6 flex-wrap">
+                  <span
+                    className="inline-block px-3 py-1 text-[10px] tracking-[0.15em] uppercase border border-[#4a7fc8]/40 text-[#4a7fc8] whitespace-nowrap"
+                    style={{ fontFamily: '"Inter", sans-serif' }}
+                  >
+                    {svc.tag}
+                  </span>
                   {svc.comingSoon && (
                     <span
-                      className="ml-3 px-2.5 py-0.5 text-[10px] bg-[#4a7fc8]/20 text-[#4a7fc8] rounded-sm tracking-[0.08em] align-middle border border-[#4a7fc8]/30"
+                      className="inline-block px-2.5 py-1 text-[10px] bg-[#4a7fc8]/20 text-[#4a7fc8] rounded-sm tracking-[0.08em] border border-[#4a7fc8]/30 whitespace-nowrap"
                       style={{ fontFamily: '"Inter", sans-serif' }}
                     >
                       Coming Soon
                     </span>
                   )}
+                </div>
+                <h3
+                  className="text-2xl md:text-[28px] font-medium mb-5 text-white"
+                  style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
+                >
+                  {svc.name}
                 </h3>
                 <p
                   className="text-[14px] md:text-[15px] text-white/75 leading-[2]"
