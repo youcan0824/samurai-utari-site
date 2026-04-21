@@ -15,6 +15,13 @@ const services = [
       "地方大学生のための次世代キャリアスクール。経営者の視座・思考をインストールし、ビジネス戦闘力のベースをつくる。",
     comingSoon: true,
   },
+  {
+    tag: "AI × Facilitation",
+    name: "CATALYST",
+    description:
+      "地方中堅企業のための触媒型コンサルティング。経営変革をAI×ファシリテーションで伴走し、自走する会社を残して去る——それがゴールです。",
+    comingSoon: true,
+  },
 ];
 
 export function Service() {
@@ -58,11 +65,11 @@ export function Service() {
           >
             地方に、テクノロジーと
             <br />
-            <span className="text-[#4a7fc8]">新しいキャリア</span>を。
+            <span className="text-[#4a7fc8]">新しい風</span>を。
           </h2>
         </ScrollFadeIn>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((svc, i) => (
             <ScrollFadeIn key={i}>
               <div className="group relative p-10 md:p-12 bg-white/[0.03] border border-white/[0.12] backdrop-blur-sm overflow-hidden transition-all duration-300 hover:border-[#4a7fc8]/60 hover:-translate-y-1 hover:shadow-[0_0_40px_rgba(74,127,200,0.18)]">
