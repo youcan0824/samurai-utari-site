@@ -2,25 +2,25 @@ import { ScrollFadeIn } from "./scroll-fade-in";
 
 const services = [
   {
-    tag: "AI × Education",
-    name: "AI Training",
-    description:
-      "生成AIを事業成長につなげる企業向け研修プログラム。実践型ワークショップで、明日から使えるAI活用スキルを提供します。",
-    comingSoon: false,
-  },
-  {
     tag: "Career × Community",
     name: "Divide Base",
     description:
-      "地方大学生のための次世代キャリアスクール。経営者の視座・思考をインストールし、ビジネス戦闘力のベースをつくる。",
+      "地方大学生のための次世代キャリアスクール。経営者の視座・思考をインストールし、ビジネス戦闘力のベースをつくる。育てた若手は、後続のBRIDGE・CATALYSTで地方企業に活かしていく。",
     comingSoon: true,
   },
   {
-    tag: "AI × Facilitation",
+    tag: "Recruit × Dispatch",
+    name: "BRIDGE",
+    description:
+      "地方中小企業のための採用・人材ワンストップ。中途採用支援に加え、難関大の若手をAI実装パートナーとして月額で派遣。雇うリスクなく、人と知見を会社に流し込む。",
+    comingSoon: false,
+  },
+  {
+    tag: "AI × Transformation",
     name: "CATALYST",
     description:
-      "地方中堅企業のための触媒型コンサルティング。AI×ファシリで経営変革を伴走し、自走する会社を残して去る。",
-    comingSoon: true,
+      "地方中小企業のための人事改革ワンストップ。AI研修・組織設計・補助金フル活用までを伴走し、自走する会社を残して去る。教えるだけで終わる研修とは、役割が違う。",
+    comingSoon: false,
   },
 ];
 

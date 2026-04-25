@@ -28,9 +28,9 @@ export function Contact() {
           className="text-sm md:text-[15px] text-white/60 mb-14 leading-[2]"
           style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
         >
-          研修のご依頼・採用・取材、
+          採用、育成、AI、組織。
           <br className="md:hidden" />
-          その他のお問い合わせ。
+          人事の悩みを丸ごとご相談ください。
         </p>
         <a
           href="mailto:info@samurai-utari.jp"

@@ -3,21 +3,21 @@ import { ScrollFadeIn } from "./scroll-fade-in";
 const pillars = [
   {
     num: "01",
-    kanji: "人づくり",
-    en: "People",
-    text: "地方の大学生一人ひとりのポテンシャルを最大限に引き出す。キャリアの入口を届け、挑戦を後押しする。",
+    kanji: "育てる",
+    en: "Cultivate",
+    text: "地方の若者一人ひとりの可能性を解き放つ。キャリアの入口を届け、挑戦の場を用意し、次世代のリーダーを育てる。",
   },
   {
     num: "02",
-    kanji: "場づくり",
-    en: "Place",
-    text: "同じ志を持つ同胞（ウタリ）が集う拠点をつくる。オンラインとリアルの両面で、挑戦が生まれる環境を用意する。",
+    kanji: "つなぐ",
+    en: "Connect",
+    text: "育った若手と、人材を求める地方中小企業を出会わせる。採用、業務委託、伴走実装──機会と挑戦を、両者の手に届ける。",
   },
   {
     num: "03",
-    kanji: "事業づくり",
-    en: "Business",
-    text: "調査・設計・実行を一気通貫で担う新規事業開発。地方発のビジネスモデルを、地方から都市へと送り出す。",
+    kanji: "変える",
+    en: "Change",
+    text: "中小企業の人事と業務を進化させる。AI研修・組織設計・補助金活用までワンストップで支援し、地方企業を最前線に押し上げる。",
   },
 ];
 
@@ -42,9 +42,9 @@ export function How() {
             className="text-2xl md:text-[34px] font-normal leading-[1.7] mb-20 md:mb-28 text-[#123563] tracking-[0.05em] max-w-[820px]"
             style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
           >
-            「人づくり・場づくり・事業づくり」
+            「育てる・つなぐ・変える」の三軸で、
             <br />
-            の三軸で、格差に向き合う。
+            地方と都市の格差を、行動で埋める。
           </h2>
         </ScrollFadeIn>
 
