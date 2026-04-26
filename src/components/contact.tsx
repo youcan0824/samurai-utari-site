@@ -33,7 +33,7 @@ export function Contact() {
           人事の悩みを丸ごとご相談ください。
         </p>
         <a
-          href="mailto:info@samurai-utari.jp"
+          href="mailto:info@samurai-utari.co.jp"
           className="inline-block px-12 py-4 text-sm tracking-[0.2em] bg-white text-[#123563] hover:bg-[#f5efe0] transition-all"
           style={{ fontFamily: 'var(--font-noto-serif), "Noto Serif JP", serif' }}
         >
