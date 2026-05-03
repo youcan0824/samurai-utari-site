@@ -2,24 +2,24 @@ import { ScrollFadeIn } from "./scroll-fade-in";
 
 const services = [
   {
-    tag: "Career × Community",
-    name: "Divide Base",
+    tag: "Career × Education",
+    name: "人材教育事業",
     description:
-      "地方大学生のための次世代キャリアスクール。経営者の視座・思考をインストールし、ビジネス戦闘力のベースをつくる。育てた若手は、後続のBRIDGE・CATALYSTで地方企業に活かしていく。",
+      "地方大学生のための次世代キャリアスクール。経営者の視座・思考をインストールし、ビジネス戦闘力のベースをつくる。育てた若手は、後続事業で地方企業に活かしていく。",
     comingSoon: true,
   },
   {
-    tag: "Recruit × Dispatch",
-    name: "BRIDGE",
+    tag: "AI × Reskilling",
+    name: "生成AI研修事業",
     description:
-      "地方中小企業のための採用・人材ワンストップ。中途採用支援に加え、難関大の若手をAI実装パートナーとして月額で派遣。雇うリスクなく、人と知見を会社に流し込む。",
+      "地方中小企業のための、補助金フル活用型AIリスキリング。研修設計から助成金申請までを巻き取り、顧客の作業は捺印と提出のみ。スキル習得で終わらず、現場で動く人材を残す。",
     comingSoon: false,
   },
   {
-    tag: "AI × Transformation",
-    name: "CATALYST",
+    tag: "Talent × Architecture",
+    name: "タレントマネジメント支援事業",
     description:
-      "地方中小企業のための人事改革ワンストップ。AI研修・組織設計・補助金フル活用までを伴走し、自走する会社を残して去る。教えるだけで終わる研修とは、役割が違う。",
+      "地方中小企業の人的資本経営の実現を、制度設計と運用システムの両面で伴走。評価・等級・配置を仕組みに落とし、自社で回せる体制を残して去る。哲学なきTM導入は続かないという前提で、上流から設計する。",
     comingSoon: false,
   },
 ];
